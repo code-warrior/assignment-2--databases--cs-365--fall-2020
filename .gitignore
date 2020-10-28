@@ -1,0 +1,8 @@
+.*
+
+!README.md
+!.gitignore
+!xml/css/style.css
+!xml/dtd/student.dtd
+!xml/index.xml
+!json/student.json
