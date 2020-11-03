@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE student_registry SYSTEM "dtd/student.dtd" [
+    <!ENTITY like "">
+    <!ENTITY dont-like "">
+]
+
+<?xml-stylesheet href="css/style.css"?>
+
+<student_registry>
+        <student id="">
+          <personal_info>
+            <name first="" middle="" last="">
+              <preferred_name></preferred_name>
+            </name>
+            <email></email>
+            <phone_number></phone_number>
+          </personal_info>
+          <student_info date_enroll="">
+            <status></status>
+            <gpa></gpa>
+            <major></major>
+            <minor></minor>
+            <status></status>
+            <advisor></advisor>
+            <graduation_date></graduation_date>
+          </student_info>
+        </student>
+
+</student_registry>
