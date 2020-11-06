@@ -1,0 +1,21 @@
+:root {
+    background-color: #ddd;
+    font: 16px sans-serif;
+    line-height: 125%;
+}
+
+student, name, preferred_name, email, phone_number, student_info, year, gpa, major, minor, status, advisor, graduation_date{
+    display: block;
+}
+
+student {
+    margin: 15px 0px;
+}
+
+student_info {
+    margin: 10px 15px;
+}
+
+preferred_name, email, phone_number, student_info, year, gpa, major, minor, status, advisor, graduation_date {
+    margin-left: 15px;
+}
