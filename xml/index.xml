@@ -8,6 +8,7 @@
   <student id="std_1">
     <contains>
       <name first="Elizabeth" middle="Rose" last="Smith">
+        Elizabeth Rose Smith
         <preferred_name>Liz</preferred_name>
       </name>
       <email>ERSmith@school.edu</email>
@@ -26,6 +27,7 @@
     <student id="std_2">
     <contains>
       <name first="Elizabeth" middle="Lynn" last="Smith">
+        Elizabeth Lynn Smith
         <preferred_name>Beth</preferred_name>
       </name>
       <email>ELSmith@school.edu</email>

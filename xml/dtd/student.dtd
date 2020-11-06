@@ -6,7 +6,7 @@
 
 <!ELEMENT contains (name, email+, phone_number+, student_info)>
 
-<!ELEMENT name (preferred_name+)>
+<!ELEMENT name (#PCDATA, preferred_name+)>
   <!ATTLIST name
     first CDATA #REQUIRED
     middle CDATA #REQUIRED
