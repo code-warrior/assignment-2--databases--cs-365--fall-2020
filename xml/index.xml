@@ -14,7 +14,7 @@
       <email>ERSmith@school.edu</email>
       <phone_number>800999999</phone_number>
       <student_info date_enroll="07/2017">
-        <year>3rd</year>
+        <year>3rd year</year>
         <gpa>3.2</gpa>
         <major>Business</major>
         <status>Full time</status>
@@ -33,7 +33,7 @@
       <email>ELSmith@school.edu</email>
       <phone_number>8001234567</phone_number>
       <student_info date_enroll="06/2020">
-        <year>1st</year>
+        <year>1st year</year>
         <gpa>2.9</gpa>
         <major>Psychology</major>
         <major>Criminal Justice</major>
