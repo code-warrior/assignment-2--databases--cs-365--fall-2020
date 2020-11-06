@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE student_registry SYSTEM "dtd/student.dtd"
+<!DOCTYPE student_registry SYSTEM "dtd/student.dtd">
 
 <?xml-stylesheet href="css/style.css"?>
 
 <student_registry>
-        <student id="">
-          <contains>
-            <name first="" middle="" last="">
-              <preferred_name></preferred_name>
-            </name>
-            <email></email>
-            <phone_number></phone_number>
-            <student_info date_enroll="">
-              <consists>
-                <status></status>
-                <gpa></gpa>
-                <major></major>
-                <minor></minor>
-                <status></status>
-                <advisor></advisor>
-                <graduation_date></graduation_date>
-              </consists>
-            </student_info>
-          </contains>
-        </student>
+  <student id="std_1">
+    <contains>
+      <name first="Elizabeth" middle="Rose" last="Smith">
+        <preferred_name>Liz</preferred_name>
+      </name>
+      <email>ERSmith@school.edu</email>
+      <phone_number>800999999</phone_number>
+      <student_info date_enroll="07/2017">
+        <year>3rd</year>
+        <gpa>3.2</gpa>
+        <major>Business</major>
+        <status>Full time</status>
+        <advisor>Dr. Bill Walsh</advisor>
+        <graduation_date>05/2021</graduation_date>
+      </student_info>
+    </contains>
+  </student>
+  <student>
+    <student id="std_2">
+    <contains>
+      <name first="Elizabeth" middle="Lynn" last="Smith">
+        <preferred_name>Beth</preferred_name>
+      </name>
+      <email>ELSmith@school.edu</email>
+      <phone_number>8001234567</phone_number>
+      <student_info date_enroll="06/2020">
+        <year>1st</year>
+        <gpa>2.9</gpa>
+        <major>Psychology</major>
+        <major>Criminal Justice</major>
+        <minor>Sociology</minor>
+        <status>Part time</status>
+        <advisor>Dr. Susan Peterson</advisor>
+        <graduation_date>05/2024</graduation_date>
+      </student_info>
+    </contains>
+  </student>
 </student_registry>
