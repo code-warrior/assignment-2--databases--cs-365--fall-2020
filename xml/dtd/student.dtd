@@ -18,7 +18,7 @@
 
 <!ELEMENT phone_number (#PCDATA)>
 
-<!ELEMENT student_info (status, gpa, major+, minor*, advisor+, graduation_date)>
+<!ELEMENT student_info (year, gpa, major+, minor*, status, advisor+, graduation_date)>
   <!ATTLIST student_info
     date_enroll CDATA #REQUIRED>
 
