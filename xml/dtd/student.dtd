@@ -1,0 +1,30 @@
+<!ELEMENT student_registry (student+)>
+
+<!ELEMENT student (contains)>
+  <!ATTLIST student 
+    id ID #REQUIRED>
+
+<!ELEMENT contains (name, email+, phone_number+, student_info)>
+
+<!ELEMENT name (preferred_name+)>
+  <!ATTLIST name
+    first CDATA #REQUIRED
+    middle CDATA #REQUIRED
+    last CDATA #REQUIRED>
+
+<!ELEMENT preferred_name (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT phone_number (#PCDATA)>
+
+<!ELEMENT student_info (status, gpa, major+, minor*, advisor+, graduation_date)>
+  <!ATTLIST student_info
+    date_enroll CDATA #REQUIRED>
+
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT graduation_date (#PCDATA)>
