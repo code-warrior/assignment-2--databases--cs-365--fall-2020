@@ -14,3 +14,11 @@
     phone #PCDATA)>
 
 <!ELEMENT information EMPTY>
+   <!ATTLIST information gpa CDATA #REQUIRED
+    major CDATA #REQUIRED
+    minor CDATA
+    year (first|second|third|senior) #REQUIRED
+    status (full-time|part-time|graduated|withdrawn) #REQUIRED
+    advisor CDATA #REQUIRED
+    enrollment CDATA #REQUIRED
+    graduation CDATA #REQUIRED>
