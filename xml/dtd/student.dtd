@@ -4,3 +4,8 @@
    <!ATTLIST student id ID #REQUIRED>
 
 <!ELEMENT name EMPTY>
+   <!ATTLIST name first CDATA #REQUIRED
+    middle CDATA
+    last CDATA #REQUIRED
+    preferred CDATA)>
+
