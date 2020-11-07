@@ -17,3 +17,4 @@
 <!ELEMENT gpa (#PCDATA)> <!--gpa is required-->
 <!ELEMENT major (#PCDATA)> <!--at least one major is required-->
 <!ELEMENT minor (#PCDATA)> <!--minor is optional-->
+<!ELEMENT year (first|second|third|senior)> <!--year is required-->
