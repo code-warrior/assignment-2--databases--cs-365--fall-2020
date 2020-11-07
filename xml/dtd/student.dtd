@@ -19,3 +19,4 @@
 <!ELEMENT minor (#PCDATA)> <!--minor is optional-->
 <!ELEMENT year (first|second|third|senior)> <!--year is required-->
 <!ELEMENT status (full-time|part-time|graduated|withdrawn)> <!--status is required-->
+<!ELEMENT advisor (#PCDATA)> <!--advisor is required-->
