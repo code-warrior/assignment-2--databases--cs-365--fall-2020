@@ -5,10 +5,6 @@
 <?xml-stylesheet href="css/style.css"?>
 
 <student_list>
-    <student id="id_1">
-        <name first="John" middle="Jeremy" last="Jones" preferred="JJ" />
-        <contact email="JJJones@uhart.edu" phone="860-334-9909"/>
-        <information gpa="3.9" major="MWD" year="third" status="full-time" advisor="Timothy Becker" enrollment="2018" graduation="2222" />
     </student>
     <student id="id_2">
         <name first="John" middle="Jeremy" last="Jones" />
