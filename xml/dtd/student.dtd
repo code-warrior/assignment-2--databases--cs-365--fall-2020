@@ -13,3 +13,4 @@
    <!ATTLIST contact email CDATA #REQUIRED
     phone #PCDATA)>
 
+<!ELEMENT information EMPTY>
