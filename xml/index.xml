@@ -10,4 +10,9 @@
         <contact email="JJJones@uhart.edu" phone="860-334-9909"/>
         <information gpa="3.9" major="MWD" year="third" status="full-time" advisor="Timothy Becker" enrollment="2018" graduation="2222" />
     </student>
+    <student id="id_2">
+        <name first="John" middle="Jeremy" last="Jones" />
+        <contact email="JJones@uhart.edu" phone="860-555-3452"/>
+        <information gpa="3.4" major="English" minor="business" year="senior" status="full-time" advisor="Donald Jones" enrollment="2017" graduation="2021" />
+    </student>
 </student_list>
