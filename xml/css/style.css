@@ -22,4 +22,10 @@ name::before {
    font-weight: bold;
    content: "Name: ";
 }
+
+preferred::before {
+   font-style: italic;
+   content: " aka ";
+}
+
 }
