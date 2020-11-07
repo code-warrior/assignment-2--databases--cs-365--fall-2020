@@ -4,6 +4,11 @@ student {
    border-color: #b38872;
    padding: 20px;
 }
+
+/*Styling for alternating colors*/
+student:nth-child(odd) { background: #fae4d9 ;}
+student:nth-child(even) { background: #fff4eb ;}
+
 /*Display styling for elements in each student*/
 student *{
    display: block;
