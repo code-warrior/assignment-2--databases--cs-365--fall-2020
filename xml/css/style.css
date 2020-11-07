@@ -28,4 +28,52 @@ preferred::before {
    content: " aka ";
 }
 
+email::before {
+   font-weight: bold;
+   content: "Email: ";
+}
+
+phone::before {
+   font-weight: bold;
+   content: "Phone: ";
+}
+
+gpa::before {
+   font-weight: bold;
+   content: "GPA: ";
+}
+
+major::before {
+   font-weight: bold;
+   content: "Major: ";
+}
+
+minor::before {
+   font-weight: bold;
+   content: "Minor: ";
+}
+
+year::before {
+   font-weight: bold;
+   content: "Year: ";
+}
+
+status::before {
+   font-weight: bold;
+   content: "Status: ";
+}
+
+advisor::before {
+   font-weight: bold;
+   content: "Advisor: ";
+}
+
+enrollment::before {
+   font-weight: bold;
+   content: "Initial Enrollment Date: ";
+}
+
+graduation::before {
+   font-weight: bold;
+   content: "Graduation Year: ";
 }
