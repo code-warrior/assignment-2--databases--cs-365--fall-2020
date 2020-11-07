@@ -19,4 +19,24 @@
         "enrollment":"2018",
         "graduation":"2222"
     },
+    {
+        "name":{
+            "first":"John",
+            "middle":["Jeremy"],
+            "last":"Jones",
+            "preferred":["JJ"]
+        },
+        "contact":{
+            "email":["JJones@uhart.edu"],
+            "phone":["860-555-3452"]
+        },
+        "gpa":"3.4",
+        "major":["English"],
+        "minor":["business"],
+        "year":"senior",
+        "status":"full-time",
+        "advisor":"Donald Jones",
+        "enrollment":"2017",
+        "graduation":"2221"
+    },
 ]}
