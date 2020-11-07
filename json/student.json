@@ -1,2 +1,22 @@
 {"student_list":[
+    {
+        "name":{
+            "first":"John",
+            "middle":["Jeremy"],
+            "last":"Jones",
+            "preferred":["Johnny"]
+        },
+        "contact":{
+            "email":["JJones1@uhart.edu"],
+            "phone":["860-334-9909"]
+        },
+        "gpa":"3.9",
+        "major":["MWD"],
+        "minor":[],
+        "year":"third",
+        "status":"full-time",
+        "advisor":"Timothy Becker",
+        "enrollment":"2018",
+        "graduation":"2222"
+    },
 ]}
