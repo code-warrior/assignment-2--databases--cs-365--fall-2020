@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE student_roster SYSTEM "dtd/student.dtd">
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+<student_roster>
+    <student id="0001" year="Senior" status="full-time">
+        <name fname="Ed" lname="Bob" pref_name="Eddy"/>
+        <email_addr>ebob@hartford.edu</email_addr>
+        <phone>555-555-5555</phone>
+        <gpa>4.0</gpa>
+        <major>Computer Science</major>
+        <minor>Math</minor>
+        <advisor>Roy Vanegas</advisor>
+        <date_enrolled>Sept 2017</date_enrolled>
+        <date_graduation>May 2021</date_graduation>
+    </student>
+    <student id="0002" year="Sophomore" status="part-time">
+        <name fname="Ed" mname="Jeff" lname="Bob"/>
+        <email_addr>ebob2@hartford.edu</email_addr>
+        <gpa>3.5</gpa>
+        <major>Math</major>
+        <minor>Computer Science</minor>
+        <advisor>Roy Vanegas</advisor>
+        <date_enrolled>Sept 2017</date_enrolled>
+        <date_graduation>May 2025</date_graduation>
+    </student>
+</student_roster>

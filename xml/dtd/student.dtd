@@ -1,0 +1,29 @@
+<!ELEMENT name EMPTY>
+<!ATTLIST name
+    fname (#PCDATA) #REQUIRED> <!-- Character Data-->
+<!ATTLIST name
+    mname (#PCDATA) #IMPLIED> <!-- Character Data-->
+<!ATTLIST name
+    lname (#PCDATA) #REQUIRED> <!-- Character Data-->
+<!ATTLIST name
+    pref_name (#PCDATA) #IMPLIED> <!-- Character Data-->
+
+<!ELEMENT email_addr (#PCDATA)> <!-- Character Data-->
+<!ELEMENT phone (#PCDATA)> <!-- Character Data-->
+<!ELEMENT gpa (#PCDATA)> <!-- Character Data-->
+<!ELEMENT major (#PCDATA)> <!-- Character Data-->
+<!ELEMENT minor (#PCDATA)> <!-- Character Data-->
+<!ELEMENT advisor (#PCDATA)> <!-- Character Data-->
+<!ELEMENT date_enrolled (#PCDATA)> <!-- Character Data-->
+<!ELEMENT date_graduation (#PCDATA)> <!-- Character Data-->
+
+<!ELEMENT student (name, email_addr, phone?, gpa, major, minor*,
+        advisor, date_enrolled, date_graduation)> <!-- Student Data-->
+<!ATTLIST student
+    id ID #REQUIRED> <!-- Unique Identifier-->
+<!ATTLIST student
+    year (Freshman|Sophomore|Junior|Senior|Graduate) #REQUIRED  <!-- Status - 1st through 4th year, or grad-->
+<!ATTLIST student
+    status (full-time|part-time|graduated|withdrawn) #REQUIRED> <!-- Status - full, part, grad, withdrawn-->
+
+<!ELEMENT student_roster (student)*>  <!-- Root - Full Roster-->
