@@ -4,11 +4,11 @@
 <!ELEMENT student (name,contact+,gpa,major+,minor*,year,status,advisor,enrollment,graduation)>
 <!ATTLIST student id ID #REQUIRED> <!--each student must have unique id-->
 
-<!ELEMENT name EMPTY>
-   <!ATTLIST name first CDATA #REQUIRED
-    middle CDATA
-    last CDATA #REQUIRED
-    preferred CDATA)>
+<!ELEMENT name (first,middle*,last,preferred*)> <!--name is required-->
+<!ELEMENT first (#PCDATA)> <!--first is required-->
+<!ELEMENT middle (#PCDATA)> <!--middle is optional-->
+<!ELEMENT last (#PCDATA)> <!--last is required-->
+<!ELEMENT preferred (#PCDATA)> <!--preferred is optional-->
 
 <!ELEMENT contact EMPTY>
    <!ATTLIST contact email CDATA #REQUIRED
