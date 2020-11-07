@@ -2,3 +2,4 @@
 
 <!DOCTYPE student_list SYSTEM "dtd/student.dtd">
 
+<?xml-stylesheet href="css/style.css"?>
