@@ -10,9 +10,9 @@
 <!ELEMENT last (#PCDATA)> <!--last is required-->
 <!ELEMENT preferred (#PCDATA)> <!--preferred is optional-->
 
-<!ELEMENT contact EMPTY>
-   <!ATTLIST contact email CDATA #REQUIRED
-    phone #PCDATA)>
+<!ELEMENT contact (email+,phone*)> <!--contact is required-->
+<!ELEMENT email (#PCDATA)> <!--email is required-->
+<!ELEMENT phone (#PCDATA)> <!--phone is optional-->
 
 <!ELEMENT information EMPTY>
    <!ATTLIST information gpa CDATA #REQUIRED
