@@ -24,9 +24,23 @@
         <enrollment>2018</enrollment>
         <graduation>2222</graduation>
     </student>
-    <student id="id_2">
-        <name first="John" middle="Jeremy" last="Jones" />
-        <contact email="JJones@uhart.edu" phone="860-555-3452"/>
-        <information gpa="3.4" major="English" minor="business" year="senior" status="full-time" advisor="Donald Jones" enrollment="2017" graduation="2021" />
+    <student id="id_0002">
+        <name>
+            <first>John</first>
+            <middle>Jeremy</middle>
+            <last>Jones</last>
+        </name>
+        <contact>
+            <email>JJones@uhart.edu</email>
+            <phone>860-555-3452</phone>
+        </contact>
+        <gpa>3.4</gpa>
+        <major>English</major>
+        <minor>business</minor>
+        <year>senior</year>
+        <status>full-time</status>
+        <advisor>Donald Jones</advisor>
+        <enrollment>2017</enrollment>
+        <graduation>2221</graduation>
     </student>
 </student_list>
