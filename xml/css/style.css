@@ -13,4 +13,13 @@ student:nth-child(even) { background: #fff4eb ;}
 student *{
    display: block;
 }
+name *{
+   display: inline;
+}
+
+/*Adding desrciptive content for better user experience*/
+name::before {
+   font-weight: bold;
+   content: "Name: ";
+}
 }
