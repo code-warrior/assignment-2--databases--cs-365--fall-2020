@@ -16,6 +16,13 @@
             <email>JJones1@uhart.edu</email>
             <phone>860-334-9909</phone>
         </contact>
+        <gpa>3.9</gpa>
+        <major>MWD</major>
+        <year>third</year>
+        <status>full-time</status>
+        <advisor>Timothy Becker</advisor>
+        <enrollment>2018</enrollment>
+        <graduation>2222</graduation>
     </student>
     <student id="id_2">
         <name first="John" middle="Jeremy" last="Jones" />
