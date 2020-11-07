@@ -18,3 +18,4 @@
 <!ELEMENT major (#PCDATA)> <!--at least one major is required-->
 <!ELEMENT minor (#PCDATA)> <!--minor is optional-->
 <!ELEMENT year (first|second|third|senior)> <!--year is required-->
+<!ELEMENT status (full-time|part-time|graduated|withdrawn)> <!--status is required-->
