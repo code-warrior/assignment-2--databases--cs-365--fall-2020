@@ -43,4 +43,25 @@
         <enrollment>2017</enrollment>
         <graduation>2221</graduation>
     </student>
+    <student id="id_0003">
+        <name>
+            <first>Zachary</first>
+            <last>Shoemaker</last>
+            <preferred>Zack</preferred>
+        </name>
+        <contact>
+            <email>ZShoemaker@uhart.edu</email>
+            <phone>860-123-4568</phone>
+            <phone>917-873-9563</phone>
+        </contact>
+        <gpa>3.6</gpa>
+        <major>Computer Science</major>
+        <major>Engineering</major>
+        <minor>Math</minor>
+        <year>second</year>
+        <status>full-time</status>
+        <advisor>Ingrid Russel</advisor>
+        <enrollment>2019</enrollment>
+        <graduation>2223</graduation>
+    </student>
 </student_list>
