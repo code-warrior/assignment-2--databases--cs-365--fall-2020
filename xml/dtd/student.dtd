@@ -21,3 +21,4 @@
 <!ELEMENT status (full-time|part-time|graduated|withdrawn)> <!--status is required-->
 <!ELEMENT advisor (#PCDATA)> <!--advisor is required-->
 <!ELEMENT enrollment (#PCDATA)> <!--enrollment is required-->
+<!ELEMENT graduation (#PCDATA)> <!--graduation is required-->
