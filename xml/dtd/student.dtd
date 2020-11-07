@@ -1,7 +1,8 @@
 <!ELEMENT student_list (student+)>
 
-<!ELEMENT student (name,contact,information)>
-   <!ATTLIST student id ID #REQUIRED>
+<!--student must contain name, contact, and other information elements-->
+<!ELEMENT student (name,contact+,gpa,major+,minor*,year,status,advisor,enrollment,graduation)>
+<!ATTLIST student id ID #REQUIRED> <!--each student must have unique id-->
 
 <!ELEMENT name EMPTY>
    <!ATTLIST name first CDATA #REQUIRED
