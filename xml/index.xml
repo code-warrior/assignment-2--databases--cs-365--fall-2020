@@ -5,6 +5,13 @@
 <?xml-stylesheet href="css/style.css"?>
 
 <student_list>
+    <student id="id_0001">
+        <name>
+            <first>John</first>
+            <middle>Jeremy</middle>
+            <last>Jones</last>
+            <preferred>Johnny</preferred>
+        </name>
     </student>
     <student id="id_2">
         <name first="John" middle="Jeremy" last="Jones" />
