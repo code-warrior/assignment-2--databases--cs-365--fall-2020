@@ -2,7 +2,7 @@
 <!ELEMENT student_list (student+)>
 
 <!--student must contain name, contact, and other information elements-->
-<!ELEMENT student (name,contact+,gpa,major+,minor*,year,status,advisor,enrollment,graduation)>
+<!ELEMENT student (name,contact,gpa,major+,minor*,year,status,advisor,enrollment,graduation)>
 <!ATTLIST student id ID #REQUIRED> <!--each student must have unique id-->
 
 <!ELEMENT name (first,middle*,last,preferred*)> <!--name is required-->
