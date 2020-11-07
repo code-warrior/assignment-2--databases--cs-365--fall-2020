@@ -1,3 +1,11 @@
-:root {
-   background-color: rgb(240, 240, 240);
+student {
+   display: block;
+   border-style: dashed;
+   border-color: #b38872;
+   padding: 20px;
+}
+/*Display styling for elements in each student*/
+student *{
+   display: block;
+}
 }
