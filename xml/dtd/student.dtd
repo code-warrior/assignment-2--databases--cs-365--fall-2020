@@ -1,2 +1,3 @@
 <!ELEMENT student_list (student+)>
 
+<!ELEMENT student (name,contact,information)>
