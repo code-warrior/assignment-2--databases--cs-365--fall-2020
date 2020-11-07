@@ -29,6 +29,7 @@
             <first>John</first>
             <middle>Jeremy</middle>
             <last>Jones</last>
+            <preferred>JJ</preferred>
         </name>
         <contact>
             <email>JJones@uhart.edu</email>
