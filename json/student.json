@@ -39,4 +39,24 @@
         "enrollment":"2017",
         "graduation":"2221"
     },
+    {
+        "name":{
+            "first":"Zachary",
+            "middle":[],
+            "last":"Shoemaker",
+            "preferred":["Zack"]
+        },
+        "contact":{
+            "email":["ZShoemaker@uhart.edu"],
+            "phone":["860-123-4568","917-873-9563"]
+        },
+        "gpa":"3.6",
+        "major":["Computer Science","Engineering"],
+        "minor":["Math"],
+        "year":"second",
+        "status":"full-time",
+        "advisor":"Ingrid Russel",
+        "enrollment":"2019",
+        "graduation":"2223"
+    }
 ]}
