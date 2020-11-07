@@ -9,3 +9,4 @@
     last CDATA #REQUIRED
     preferred CDATA)>
 
+<!ELEMENT contact EMPTY>
