@@ -1,17 +1,18 @@
 <!ELEMENT student (firstname,middlename,lastname,preferredname,studentID,email,phonenum,yearstatus,
-gpa,major,minor,statustime,advisor,enrolldate,graddate)>  
-<!ELEMENT firstname (#PCDATA)>
-<!ELEMENT middlename (#PCDATA)>  
-<!ELEMENT lastname (#PCDATA)>
-<!ELEMENT preferredname (#PCDATA)>
-<!ELEMENT studentID (#PCDATA)>
-<!ELEMENT email (#PCDATA)>  
-<!ELEMENT phonenum (#PCDATA)>
-<!ELEMENT yearstatus (#PCDATA)>  
-<!ELEMENT gpa (#PCDATA)>
-<!ELEMENT major (#PCDATA)>
-<!ELEMENT minor (#PCDATA)>
-<!ELEMENT statustime (#PCDATA)>
-<!ELEMENT advisor (#PCDATA)>  
-<!ELEMENT enrolldate (#PCDATA)>
-<!ELEMENT graddate (#PCDATA)>
+gpa,major,minor,statustime,advisor,enrolldate,graddate)> 
+<!-- Above defines that student contains all of the following data types-->  
+<!ELEMENT firstname (#PCDATA)> <!-- this data value stores the first name of the person-->  
+<!ELEMENT middlename (#PCDATA)>  <!-- this data value stores the middle name of the person--> 
+<!ELEMENT lastname (#PCDATA)><!-- this data value stores the first last of the person--> 
+<!ELEMENT preferredname (#PCDATA)><!-- this data value stores the prefered name of the person--> 
+<!ELEMENT studentID (#PCDATA)><!-- this data value stores the student ID of the person--> 
+<!ELEMENT email (#PCDATA)>  <!-- this data value stores the email adress of the person--> 
+<!ELEMENT phonenum (#PCDATA)><!-- this data value stores the phone number of the person--> 
+<!ELEMENT yearstatus (#PCDATA)>  <!-- this data value stores the current year of the person(freshman-senior)--> 
+<!ELEMENT gpa (#PCDATA)><!-- this data value stores the GPA of the person--> 
+<!ELEMENT major (#PCDATA)><!-- this data value stores the Major of the person--> 
+<!ELEMENT minor (#PCDATA)><!-- this data value stores the Minor of the person--> 
+<!ELEMENT statustime (#PCDATA)><!-- this data value stores if the person is fulltime or partime student--> 
+<!ELEMENT advisor (#PCDATA)>  <!-- this data value stores the  name of the person's advisor--> 
+<!ELEMENT enrolldate (#PCDATA)><!-- this data value stores the enrollment date of the person--> 
+<!ELEMENT graddate (#PCDATA)><!-- this data value stores the graduation date of the person--> 
