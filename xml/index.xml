@@ -5,7 +5,7 @@
 <?xml-stylesheet href="css/style.css"?>
 
 <student_registry>
-  <student id="std_1">
+  <student id="student_01">
     <name first="Elizabeth" middle="Rose" last="Smith">
       Elizabeth Rose Smith
       <preferred_name>Liz</preferred_name>
@@ -21,7 +21,7 @@
       <graduation_date>05/2021</graduation_date>
     </student_info>
   </student>
-  <student id="std_2">
+  <student id="student_02">
     <name first="Elizabeth" middle="Lynn" last="Smith">
       Elizabeth Lynn Smith
       <preferred_name>Beth</preferred_name>
