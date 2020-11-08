@@ -13,7 +13,6 @@
       <last>Reilly</last>
     </name>
 
-
     <contact>
       <email>Treilly@hartford.edu</email>
       <email>tylerreily99@gmail.com</email>
@@ -33,6 +32,7 @@
   </student>
 
   <student ID = "2">
+
     <name>
       <first>William</first>
       <middle>Silly</middle>
@@ -56,5 +56,4 @@
     <enrollment_date>2017</enrollment_date>
     <graduation_date>2021</graduation_date>
   </student>
-
 </student_list>

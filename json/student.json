@@ -20,29 +20,25 @@
       "enrollment_date": "2017",
       "graduation_date": "2021"
     },
-
-
-      {
-        "name": {
-          "first": "William",
-          "middle": "Silly",
-          "last": "Willy",
-          "preferred": "Billy"
-        },
-        "student_id": "2",
-        "contact": {
-          "email": "billysilly@hartford.edu",
-          "phone": "123123123"
-        },
-        "status": "freshman",
-        "gpa": "3.00",
-        "major": "civil engineering",
-        "registration_status": "part-time",
-        "advisor": "Who knows",
-        "enrollment_date": "2017",
-        "graduation_date": "2021"
-      }
-    
-
+    {
+      "name": {
+        "first": "William",
+        "middle": "Silly",
+        "last": "Willy",
+        "preferred": "Billy"
+      },
+      "student_id": "2",
+      "contact": {
+        "email": "billysilly@hartford.edu",
+        "phone": "123123123"
+      },
+      "status": "freshman",
+      "gpa": "3.00",
+      "major": "civil engineering",
+      "registration_status": "part-time",
+      "advisor": "Who knows",
+      "enrollment_date": "2017",
+      "graduation_date": "2021"
+    }
   ]
 }
