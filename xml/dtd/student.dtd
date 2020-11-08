@@ -1,9 +1,37 @@
 <!ELEMENT university_students (student+)>
-    <!ATTLIST university_students>
 
-<!ELEMENT student>
+<!ELEMENT student (has)*>
+    <!ATTLIST student id ID #REQUIRED>
 
-<!ELEMENT first_name>
-<!ELEMENT middle_name>
-<!ELEMENT last_name>
-<!ELEMENT preferred_name>asd
+<!ELEMENT has (info)+>
+
+<!ELEMENT info (contains)*>
+    <!ATTLIST info id ID #REQUIRED>
+
+<!ELEMENT contains (personalInfo, academicInfo)+>
+
+<!ELEMENT personalInfo (firstName, middleName, lastName, prefName, phone)+>
+    <!ATTLIST personalInfo id ID #REQUIRED>
+
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT middleName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT prefName (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+
+<!ELEMENT academicInfo (studentID, email, year, gpa, major, minor, status, advisor, initEnroll, gradDate)+>
+    <!ATTLIST academicInfo id ID #REQUIRED>
+
+<!ELEMENT studentID (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor  (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT initEnroll (#PCDATA)>
+<!ELEMENT gradDate (#PCDATA)>
+
+
+
