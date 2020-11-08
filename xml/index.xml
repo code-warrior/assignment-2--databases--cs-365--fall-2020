@@ -2,7 +2,7 @@
 <!DOCTYPE university_students SYSTEM "dtd.students.dtd">
 <?xml-stylesheet href="css/style.css"?>
 
-<university_students format="cd">
+<university_students>
     <student id="st_1">
         <first_name>Steven</first_name>
         <middle_name>Grant</middle_name>

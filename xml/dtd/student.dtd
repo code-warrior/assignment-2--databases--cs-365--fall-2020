@@ -1,0 +1,2 @@
+<!ELEMENT university_students (student+)>
+    <!ATTLIST university_students>
