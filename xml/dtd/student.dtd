@@ -1,0 +1,35 @@
+<!ELEMENT student (personalInfo+)>
+        <!ATTLIST student
+                format (full|part|graduate|withdrawn) #REQUIRED>
+
+        <!ELEMENT personalInfo (creates)*>
+        <!-- The id must always begin with a letter or underscore. -->
+        <!ATTLIST personalInfo
+                id ID #REQUIRED
+                lname CDATA #REQUIRED
+                fname CDATA #REQUIRED
+                mname CDATA #REQUIRED
+                prefname CDATA #IMPLIED
+                email CDATA #REQUIRED
+                phone CDATA #REQUIRED>
+
+        <!ELEMENT creates (academicInfo+)>
+        <!ATTLIST creates initEnrollment CDATA #REQUIRED>
+
+        <!ELEMENT academicInfo (grades)+>
+        <!ATTLIST academicInfo id ID #REQUIRED
+                advisor CDATA #REQUIRED
+                major CDATA #REQUIRED
+                minor CDATA #IMPLIED
+                expectedgrad CDATA #REQUIRED
+                status CDATA #REQUIRED
+                >
+        <!ELEMENT grades (data)+>
+        <!ATTLIST grades
+                id ID #REQUIRED
+                gpa CDATA #REQUIRED
+                >
+        <!ELEMENT data EMPTY>
+        <!ATTLIST data year CDATA #REQUIRED
+                semester CDATA #REQUIRED
+                gpa CDATA #REQUIRED>
