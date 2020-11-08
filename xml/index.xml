@@ -14,7 +14,7 @@
             <email>jgold@gmail.com</email>
             <phone>111-111-1111</phone>
         </contact>
-        <school_stats>
+        <student_stats>
             <year>fourth year</year>
             <gpa>3.0</gpa>
             <major>Multimedia Web Design and Development</major>
@@ -23,6 +23,6 @@
             <advisor>John Doe</advisor>
             <initial_enrollment>August 2017</initial_enrollment>
             <graduation_date>May 2021</graduation_date>
-        </school_stats>
+        </student_stats>
     </student>
 </student_list>

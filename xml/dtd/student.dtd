@@ -14,7 +14,7 @@
 <!ELEMENT email (#PCDATA)> <!--atleast one email is required-->
 <!ELEMENT phone_number (#PCDATA)> <!--atleast one phone number is required-->
 
-<!ELEMENT school_stats (year, gpa, major+, minor*, status, advisor+,initial_enrollment, graduation_date)> <!--school stats includes all information necessary for a student-->
+<!ELEMENT student_stats (year, gpa, major+, minor*, status, advisor+,initial_enrollment, graduation_date)> <!--school stats includes all information necessary for a student-->
 <!ELEMENT year (#PCDATA)> <!--current year in school is required-->
 <!ELEMENT gpa (#PCDATA)> <!--gpa is required-->
 <!ELEMENT major (#PCDATA)> <!--atleast one major is required-->
