@@ -1,0 +1,50 @@
+{
+    "student_registry": [
+        {
+            "student": {
+                "id": "student_01",
+                "Name": {
+                    "First": "Elizabeth",
+                    "Middle": "Rose",
+                    "Last": "Smith",
+                    "Preferred": "Liz"
+                },
+                "Email": "ERSmith@school.edu",
+                "PhoneNumber": "800-999-9999",
+                "StudentInfo": {
+                    "DateEnroll": "07/2017",
+                    "Year": "3rd year",
+                    "Gpa": "3.2",
+                    "Major": ["Business"],
+                    "Minor":[],
+                    "Status": "Full time",
+                    "Advisor": "Dr. Bill Walsh",
+                    "GraduationDate": "05/2021"
+                }
+            }
+        },
+        {
+            "student": {
+                "id": "student_02",
+                "Name": {
+                    "First": "Elizabeth",
+                    "Middle": "Lynn",
+                    "Last": "Smith",
+                    "Preferred": "Beth"
+                },
+                "Email": "ELSmith@school.edu",
+                "PhoneNumber": "800-123-4567",
+                "StudentInfo": {
+                    "DateEnroll": "06/2020",
+                    "Year": "1st year",
+                    "Gpa": "2.9",
+                    "Major": ["Psychology", "Criminal Justice"],
+                    "Minor": ["Sociology"],
+                    "Status": "Part time",
+                    "Advisor": "Dr. Susan Peterson",
+                    "GraduationDate": "05/2024"
+                }
+            }
+        }
+    ]
+}
