@@ -1,0 +1,52 @@
+{
+  "university_students": {
+    "student": [
+      {
+        "student_id": "s_1350249",
+        "name": {
+          "first": "Rick",
+          "middle": "Brown",
+          "last": "Sanchez",
+          "preferred": "Rick"
+        },
+        "contact_info": {
+          "email": "rsanchez@uni.edu",
+          "phone": "6063029041"
+        },
+        "academic_record": {
+          "year": "third",
+          "gpa": "3.95",
+          "major": "aerospace engineering",
+          "minor": "math",
+          "status": "full-time",
+          "advisor": "Justin Roiland",
+          "enrollment_date": "2018",
+          "graduation_date": "2022"
+        }
+      },
+      {
+        "student_id": "s_4024913",
+        "name": {
+          "first": "Rick",
+          "middle": "Marty",
+          "last": "Sanchez",
+          "preferred": "Ricky"
+        },
+        "contact_info": {
+          "email": "ricks@uni.edu",
+          "phone": "3059027412"
+        },
+        "academic_record": {
+          "year": "second",
+          "gpa": "3.14",
+          "major": "Journalism",
+          "minor": "psychology",
+          "status": "full-time",
+          "advisor": "Peter Raymond",
+          "enrollment_date": "2019",
+          "graduation_date": "2023"
+        }
+      }
+    ]
+  }
+}
