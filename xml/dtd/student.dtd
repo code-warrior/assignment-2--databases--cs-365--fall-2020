@@ -7,7 +7,7 @@
 
 <!ELEMENT contact_info (email+, phone+)> <!--contact info has 2 elements (children), both are required (at least one time)-->
 
-<!ELEMENT academic_record (year, gpa, major+, minor*, status, advisor, enrollment_date, graduation_date)> <!--academic_record has 8 elements (children), all elements but minor are required, minor is optional, also major can be repeated more than once-->
+<!ELEMENT academic_record (year, gpa, major+, minor*, status, advisor, enrollment_date, graduation_date)> <!--academic_record has 8 elements (children), all elements but minor are required, minor is optional, also major can be repeated more than once (a student can have more than one major)-->
 
 <!ELEMENT first (#PCDATA)> <!--first name element, parsed character data type-->
 <!ELEMENT last (#PCDATA)> <!--last name element, parsed character data type-->
