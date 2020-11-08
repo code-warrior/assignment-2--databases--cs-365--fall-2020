@@ -1,10 +1,10 @@
 university_students{
-  text-align:center;
   font-size:30px;
   background-color: #dcdcdc;
 }
 
 student{
+  text-align:center;
   display: block;
   margin: 100px;
   color: #0074D9;
@@ -23,6 +23,11 @@ contact_info{
 academic_record{
   color: #24c8a2;
   margin: 100px;
+}
+
+first, last, middle, preferred, email, phone, year, gpa, major, minor, status, advisor, enrollment_date, graduation_date {
+  display: block;
+  text-align: left;
 }
 
 student::before{
@@ -85,74 +90,4 @@ enrollment_date::before{
 
 graduation_date::before{
   content: "Graduation date: ";
-}
-
-first{
-  display: block;
-  text-align: left;
-}
-
-last{
-  display: block;
-  text-align: left;
-}
-
-middle{
-  display: block;
-  text-align: left;
-}
-
-preferred{
-  display: block;
-  text-align: left;
-}
-
-email{
-  display: block;
-  text-align: left;
-}
-
-phone{
-  display: block;
-  text-align: left;
-}
-
-year{
-  display: block;
-  text-align: left;
-}
-
-gpa{
-  display: block;
-  text-align: left;
-}
-
-major{
-  display: block;
-  text-align: left;
-}
-
-minor{
-  display: block;
-  text-align: left;
-}
-
-status{
-  display: block;
-  text-align: left;
-}
-
-advisor{
-  display: block;
-  text-align: left;
-}
-
-enrollment_date{
-  display: block;
-  text-align: left;
-}
-
-graduation_date{
-  display: block;
-  text-align: left;
 }
