@@ -1,0 +1,125 @@
+{
+  "student": {
+    "@format": "full",
+    "personalInfo": [
+      {
+        "@lname": "Spada",
+        "@fname": "Brandon",
+        "@mname": "R",
+        "@email": "sample@sample.com",
+        "@phone": "888-888-8888",
+        "@id": "a_1f",
+        "creates": {
+          "@initEnrollment": "10/21/2016",
+          "academicInfo": {
+            "@advisor": "Dr. Rosiene",
+            "@expectedgrad": "2020",
+            "@major": "Computer Science",
+            "@status": "Senior",
+            "@id": "alb_1",
+            "grades": {
+              "@gpa": "3.49",
+              "@id": "g_19920",
+              "data": [
+                {
+                  "@year": "2017",
+                  "@semester": "Fall",
+                  "@gpa": "4.00"
+                },
+                {
+                  "@year": "2018",
+                  "@semester": "Spring",
+                  "@gpa": "3.33"
+                },
+                {
+                  "@year": "2018",
+                  "@semester": "Fall",
+                  "@gpa": "3.66"
+                },
+                {
+                  "@year": "2019",
+                  "@semester": "Spring",
+                  "@gpa": "3.00"
+                },
+                {
+                  "@year": "2019",
+                  "@semester": "Fall",
+                  "@gpa": "3.66"
+                },
+                {
+                  "@year": "2020",
+                  "@semester": "Spring",
+                  "@gpa": "3.00"
+                },
+                {
+                  "@year": "2020",
+                  "@semester": "Fall",
+                  "@gpa": "3.4"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "@lname": "Spada",
+        "@fname": "Joseph",
+        "@mname": "T",
+        "@email": "sample21@sample21.com",
+        "@phone": "888-777-7777",
+        "@id": "a_20",
+        "creates": {
+          "@initEnrollment": "10/21/2014",
+          "academicInfo": {
+            "@advisor": "Professor Becker",
+            "@expectedgrad": "2018",
+            "@major": "Computer Science",
+            "@status": "Graduate",
+            "@id": "alb_2",
+            "grades": {
+              "@gpa": "3.91",
+              "@id": "g_19921",
+              "data": [
+                {
+                  "@year": "2015",
+                  "@semester": "Fall",
+                  "@gpa": "4.00"
+                },
+                {
+                  "@year": "2016",
+                  "@semester": "Spring",
+                  "@gpa": "4.00"
+                },
+                {
+                  "@year": "2016",
+                  "@semester": "Fall",
+                  "@gpa": "3.66"
+                },
+                {
+                  "@year": "2017",
+                  "@semester": "Spring",
+                  "@gpa": "4.00"
+                },
+                {
+                  "@year": "2017",
+                  "@semester": "Fall",
+                  "@gpa": "3.66"
+                },
+                {
+                  "@year": "2018",
+                  "@semester": "Spring",
+                  "@gpa": "4.00"
+                },
+                {
+                  "@year": "2018",
+                  "@semester": "Fall",
+                  "@gpa": "4.00"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
