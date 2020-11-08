@@ -48,7 +48,7 @@ Your student is comprised of the following:
 * Expose any XML attribute to the front end using CSS’s [`content`](https://developer.mozilla.org/en-US/docs/Web/CSS/content) property and [`attr()`](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) function. DONE
 
 ### JSON
-* Validate your JSON directly in your editor and/or at [jslint.com](http://jslint.com/).
+* Validate your JSON directly in your editor and/or at [jslint.com](http://jslint.com/). JSON: good.
 
 ## ❖・Due・❖
 Sunday, 8 November 2020, at 10:00 PM.
@@ -58,9 +58,9 @@ Sunday, 8 November 2020, at 10:00 PM.
 |--------------------------|:------:|
 | *XML Implementation*     | `20`   | DONE
 | *DTD Implementation*     | `20`   | DONE
-| *JSON Implementation*    | `20`   |
-| *Code Quality*           | `20`   |
-| *Following Instructions* | `20`   |
+| *JSON Implementation*    | `20`   | DONE
+| *Code Quality*           | `20`   | FANTASTIC
+| *Following Instructions* | `20`   | OF COURSE
 
 **NO late submissions will be accepted.**
 
