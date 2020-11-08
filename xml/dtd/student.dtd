@@ -1,4 +1,4 @@
-<!ELEMENT univeristy_students (student+)> <!--This is the root element, it will have an element student as it's child, the plus sign indicates that there should be at least one student-->
+<!ELEMENT university_students (student+)> <!--This is the root element, it will have an element student as it's child, the plus sign indicates that there should be at least one student-->
 
 <!ELEMENT student (name, contact_info, academic_record)> <!--student has 3 elements (children) and they are all required to be present-->
   <!ATTLIST student id ID #REQUIRED <!--student element has an attribute id which is of ID type and it's required-->
