@@ -1,13 +1,13 @@
 university_students{
   text-align:center;
   font-size:30px;
-  background-color: dcdcdc;
+  background-color: #dcdcdc;
 }
 
 student{
   display: block;
   margin: 100px;
-  color: #aad700;
+  color: #0074D9;
 }
 
 name{
