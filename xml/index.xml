@@ -10,6 +10,36 @@
                     <data year="2017" semester="Fall" gpa="4.00"/>
                     <data year="2018" semester="Spring" gpa="3.33"/>
                     <data year="2018" semester="Fall" gpa="3.66"/>
+                    <data year="2019" semester="Spring" gpa="3.00"/>
+                    <data year="2019" semester="Fall" gpa="3.66"/>
+                    <data year="2020" semester="Spring" gpa="3.00"/>
+                    <data year="2020" semester="Fall" gpa="3.4"/>
+                </grades>
+            </academicInfo>
+        </creates>
+    </personalInfo>
+    <personalInfo lname="Spada" fname="Joseph" mname="T" email="sample21@sample21.com" phone="888-777-7777" id="a_20">
+        <creates initEnrollment="10/21/2014">
+            <academicInfo advisor="Professor Becker" expectedgrad="2018" major="Computer Science" status="Graduate" id="alb_2">
+                <grades gpa="3.91" id="g_19921">
+                    <data year="2015" semester="Fall" gpa="4.00"/>
+                    <data year="2016" semester="Spring" gpa="4.00"/>
+                    <data year="2016" semester="Fall" gpa="3.66"/>
+                    <data year="2017" semester="Spring" gpa="4.00"/>
+                    <data year="2017" semester="Fall" gpa="3.66"/>
+                    <data year="2018" semester="Spring" gpa="4.00"/>
+                    <data year="2018" semester="Fall" gpa="4.00"/>
+                </grades>
+            </academicInfo>
+        </creates>
+    </personalInfo>
+    <personalInfo lname="Smith" fname="John" mname="A" email="JSmith@Apple.com" phone="123-456-7890" id="a_21">
+        <creates initEnrollment="03/08/1920">
+            <academicInfo advisor="Advisor Test" expectedgrad="1925" major="Art" status="Withdrew" id="alb_3">
+                <grades gpa="1.66" id="g_19922">
+                    <data year="1920" semester="Fall" gpa="2.33"/>
+                    <data year="1921" semester="Spring" gpa="1.66"/>
+                    <data year="1921" semester="Fall" gpa="1.00"/>
                 </grades>
             </academicInfo>
         </creates>
