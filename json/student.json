@@ -1,0 +1,38 @@
+{
+  "students": [
+    {
+       "firstname":"john",
+        "middlename":"mid",
+        "lastname":"doe",
+        "preferredname": "firstest",
+        "studentID": "12345678",
+        "email": "email@example.com",
+        "phonenum":"555-555-5555",
+        "yearstatus": "senior",
+        "gpa": "3.9",
+        "major": "compe",
+        "minor":"phys",
+        "statustime": "fulltime",
+        "advisor": "Professor Hill",
+        "enrolldate": "fall 2017",
+        "graddate": "spring 2021"
+    },
+    {
+      "firstname":"john",
+        "middlename":"mid",
+        "lastname":"doe",
+        "preferredname": "firstest",
+        "studentID": "12345679",
+        "email": "email@example2.com",
+        "phonenum":"555-555-5556",
+        "yearstatus": "senior",
+        "gpa": "3.9",
+        "major": "compe",
+        "minor":"phys",
+        "statustime": "fulltime",
+        "advisor": "Professor Hill",
+        "enrolldate": "fall 2017",
+        "graddate": "spring 2021"
+    }
+  ]
+}
