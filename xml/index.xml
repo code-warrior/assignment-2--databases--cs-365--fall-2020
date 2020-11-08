@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE univeristy_students SYSTEM "dtd/student.dtd">
+<?xml-stylesheet href="css/style.css"?>
+
+<univeristy_students>
+    <student id="s_1350249">
+        <name>
+            <first>Rick</first>
+            <middle>Brown</middle>
+            <last>Sanchez</last>
+            <preferred>Rick</preferred>
+        </name>
+        <contact_info>
+            <email>rsanchez@uni.edu</email>
+            <phone>6063029041</phone>
+        </contact_info>
+        <academic_record>
+            <year>third</year>
+            <gpa>3.95</gpa>
+            <major>aerospace engineering</major>
+            <minor>math</minor>
+            <status>full-time</status>
+            <advisor>Justin Roiland</advisor>
+            <enrollment_date>2018</enrollment_date>
+            <graduation_date>2022</graduation_date>
+        </academic_record>
+    </student>
+
+    <student id="s_4024913">
+        <name>
+            <first>Rick</first>
+            <middle>Marty</middle>
+            <last>Sanchez</last>
+            <preferred>Ricky</preferred>
+        </name>
+        <contact_info>
+            <email>ricks@uni.edu</email>
+            <phone>3059027412</phone>
+        </contact_info>
+        <academic_record>
+            <year>second</year>
+            <gpa>3.14</gpa>
+            <major>Journalism</major>
+            <minor>psychology</minor>
+            <status>full-time</status>
+            <advisor>Peter Raymond</advisor>
+            <enrollment_date>2019</enrollment_date>
+            <graduation_date>2023</graduation_date>
+        </academic_record>
+    </student>
+</univeristy_students>
+
