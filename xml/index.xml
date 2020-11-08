@@ -6,42 +6,37 @@
 
 <student_registry>
   <student id="std_1">
-    <contains>
-      <name first="Elizabeth" middle="Rose" last="Smith">
-        Elizabeth Rose Smith
-        <preferred_name>Liz</preferred_name>
-      </name>
-      <email>ERSmith@school.edu</email>
-      <phone_number>800-999-9999</phone_number>
-      <student_info date_enroll="07/2017">
-        <year>3rd year</year>
-        <gpa>3.2</gpa>
-        <major>Business</major>
-        <status>Full time</status>
-        <advisor>Dr. Bill Walsh</advisor>
-        <graduation_date>05/2021</graduation_date>
-      </student_info>
-    </contains>
+    <name first="Elizabeth" middle="Rose" last="Smith">
+      Elizabeth Rose Smith
+      <preferred_name>Liz</preferred_name>
+    </name>
+    <email>ERSmith@school.edu</email>
+    <phone_number>800-999-9999</phone_number>
+    <student_info date_enroll="07/2017">
+      <year>3rd year</year>
+      <gpa>3.2</gpa>
+      <major>Business</major>
+      <status>Full time</status>
+      <advisor>Dr. Bill Walsh</advisor>
+      <graduation_date>05/2021</graduation_date>
+    </student_info>
   </student>
-  <student>
-    <student id="std_2">
-    <contains>
-      <name first="Elizabeth" middle="Lynn" last="Smith">
-        Elizabeth Lynn Smith
-        <preferred_name>Beth</preferred_name>
-      </name>
-      <email>ELSmith@school.edu</email>
-      <phone_number>800-123-4567</phone_number>
-      <student_info date_enroll="06/2020">
-        <year>1st year</year>
-        <gpa>2.9</gpa>
-        <major>Psychology</major>
-        <major>Criminal Justice</major>
-        <minor>Sociology</minor>
-        <status>Part time</status>
-        <advisor>Dr. Susan Peterson</advisor>
-        <graduation_date>05/2024</graduation_date>
-      </student_info>
-    </contains>
+  <student id="std_2">
+    <name first="Elizabeth" middle="Lynn" last="Smith">
+      Elizabeth Lynn Smith
+      <preferred_name>Beth</preferred_name>
+    </name>
+    <email>ELSmith@school.edu</email>
+    <phone_number>800-123-4567</phone_number>
+    <student_info date_enroll="06/2020">
+      <year>1st year</year>
+      <gpa>2.9</gpa>
+      <major>Psychology</major>
+      <major>Criminal Justice</major>
+      <minor>Sociology</minor>
+      <status>Part time</status>
+      <advisor>Dr. Susan Peterson</advisor>
+      <graduation_date>05/2024</graduation_date>
+    </student_info>
   </student>
 </student_registry>

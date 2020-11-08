@@ -1,10 +1,8 @@
 <!ELEMENT student_registry (student+)>
 
-<!ELEMENT student (contains)>
+<!ELEMENT student (name, email+, phone_number+, student_info)>
   <!ATTLIST student 
     id ID #REQUIRED>
-
-<!ELEMENT contains (name, email+, phone_number+, student_info)>
 
 <!ELEMENT name (#PCDATA, preferred_name+)>
   <!ATTLIST name
