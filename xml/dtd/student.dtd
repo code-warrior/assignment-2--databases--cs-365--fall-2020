@@ -1,2 +1,9 @@
 <!ELEMENT university_students (student+)>
     <!ATTLIST university_students>
+
+<!ELEMENT student>
+
+<!ELEMENT first_name>
+<!ELEMENT middle_name>
+<!ELEMENT last_name>
+<!ELEMENT preferred_name>asd

@@ -4,37 +4,19 @@
 
 <university_students>
     <student id="st_1">
-        <first_name>Steven</first_name>
-        <middle_name>Grant</middle_name>
-        <last_name>Rogers</last_name>
-        <preferred_name>Steve</preferred_name>
-        <student_id>123456</student_id>
-        <email>srogers@marvel.com</email>
-        <phone>(123)456-7890</phone>
-        <year>fourth year</year>
-        <gpa>4.0</gpa>
-        <major>physical therapy</major>
-        <minor>n/a</minor>
-        <status>full-time</status>
-        <advisor>Howard Stark</advisor>
-        <init_enroll>2016</init_enroll>
-        <grad_date>2020</grad_date>
+        <has>
+            <info firstName="Steven" middleName="Grant" lastName="Rogers" prefName="Steve" phone="(123)456-7890"/>
+        </has>
+        <contains>
+            <acad_info studentID="123456" email="srogers@marvel.com" year="fourth year" gpa="4.0" major="physical therapy" minor="n/a" status="full-time" advisor="Howard Stark" initEnroll="2016" gradDate="2020"/>
+        </contains>
     </student>
     <student id="st_2">
-        <first_name>Steven</first_name>
-        <middle_name>Frank</middle_name>
-        <last_name>Rogers</last_name>
-        <preferred_name>Steven</preferred_name>
-        <student_id>112233</student_id>
-        <email>strogers@marvel.com</email>
-        <phone>(987)654-3210</phone>
-        <year>first year</year>
-        <gpa>3.6</gpa>
-        <major>accounting</major>
-        <minor>business</minor>
-        <status>full-time</status>
-        <advisor>Phil Coulson</advisor>
-        <init_enroll>2019</init_enroll>
-        <grad_date>2023</grad_date>
+        <has>
+            <info firstName="Steven" middleName="Frank" lastName="Rogers" prefName="Steven" phone="(987)654-3210"/>
+        </has>
+        <contains>
+            <acad_info studentID="112233" email="strogers@marvel.com" year="first year" gpa="3.6" major="accounting" minor="business" status="full-time" advisor="Phil Coulson" initEnroll="2019" gradDate="2023"/>
+        </contains>
     </student>
 </university_students>
