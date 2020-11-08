@@ -27,4 +27,25 @@
             <graduation_date>May 2021</graduation_date>
         </student_stats>
     </student>
+    <student student_id = "000002">
+        <name>
+            <first_name>Jane</first_name>
+            <last_name>Doe</last_name>
+        </name>
+        <contact>
+            <email>jdoe@gmail.com</email>
+            <email>janedoe@gmail.com</email>
+            <phone>123-456-7890</phone>
+        </contact>
+        <student_stats>
+            <year>second year</year>
+            <gpa>3.23</gpa>
+            <major>Biology</major>
+            <minor>Physics</minor>
+            <status>full-time</status>
+            <advisor>Jeffrey Joe</advisor>
+            <initial_enrollment>August 2019</initial_enrollment>
+            <graduation_date>May 2023</graduation_date>
+        </student_stats>
+    </student>
 </student_list>
