@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE student_database SYSTEM "dtd/student.dtd">
+
+<?xml-stylesheet href="css/style.css"?>
+
+<student_database>
+    <student student_id="1000001">
+        <has>
+            <student_name>
+                <has>
+                    <first_name>Keith</first_name>
+                    <middle_name>James</middle_name>
+                    <last_name>Eagleson</last_name>
+                    <preferred_name>Keith</last_name>
+                </has>
+            </student_name>
+            <contact_details>
+                <has>
+                    <email email_address="keagleson@hartford.edu" />
+                    <phone primary="401-111-1111" />
+                </has>
+            </contact_details>
+            <program_details>
+                <has>
+                    <status year="Forth Year" />
+                    <gpa score="3.93" />
+                    <major program="Computer Science" degree_type="Bachelor of Science" />
+                    <status type="Part-Time" />
+                    <advisor name="Andrew Jung" />
+                    <enrollment_date date="2018-06-15" />
+                    <graduation_date expected_date="2021-01-05" />
+                </has>
+            </program_details>
+        </has>
+    </student>
+</student_database>

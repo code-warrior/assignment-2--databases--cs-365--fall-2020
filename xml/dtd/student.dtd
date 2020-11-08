@@ -1,0 +1,8 @@
+<!ELEMENT student_database (student*)>
+
+<!ELEMENT student (has)>
+    <!ATTLIST student_id ID #REQUIRED>
+
+<!ELEMENT has (student_name, contact_details, program_details)>
+
+<!ELEMENT student_name
