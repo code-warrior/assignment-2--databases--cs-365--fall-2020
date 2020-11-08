@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE university_students SYSTEM "dtd.students.dtd">
+<?xml-stylesheet href="css/style.css"?>
+
+<university_students format="cd">
+    <student id="st_1">
+        <first_name>Steven</first_name>
+        <middle_name>Grant</middle_name>
+        <last_name>Rogers</last_name>
+        <preferred_name>Steve</preferred_name>
+        <student_id>123456</student_id>
+        <email>srogers@marvel.com</email>
+        <phone>(123)456-7890</phone>
+        <year>fourth year</year>
+        <gpa>4.0</gpa>
+        <major>physical therapy</major>
+        <minor>n/a</minor>
+        <status>full-time</status>
+        <advisor>Howard Stark</advisor>
+        <init_enroll>2016</init_enroll>
+        <grad_date>2020</grad_date>
+    </student>
+    <student id="st_2">
+        <first_name>Steven</first_name>
+        <middle_name>Frank</middle_name>
+        <last_name>Rogers</last_name>
+        <preferred_name>Steven</preferred_name>
+        <student_id>112233</student_id>
+        <email>strogers@marvel.com</email>
+        <phone>(987)654-3210</phone>
+        <year>first year</year>
+        <gpa>3.6</gpa>
+        <major>accounting</major>
+        <minor>business</minor>
+        <status>full-time</status>
+        <advisor>Phil Coulson</advisor>
+        <init_enroll>2019</init_enroll>
+        <grad_date>2023</grad_date>
+    </student>
+</university_students>
