@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE student_list SYSTEM "dtd/student.dtd">
+
+<student_list>
+    <student student_id = "000001">
+        <name>
+            <first_name>Jonathan</first_name>
+            <last_name>Goldenberg</last_name>
+            <preferred_name>Jon</preferred_name>
+        </name>
+        <contact>
+            <email>jgoldenbe@gmail.com</email>
+            <email>jgold@gmail.com</email>
+            <phone>111-111-1111</phone>
+        </contact>
+        <school_stats>
+            <year>fourth year</year>
+            <gpa>3.0</gpa>
+            <major>Multimedia Web Design and Development</major>
+            <minor>Computer Science</minor>
+            <status>full-time</status>
+            <advisor>John Doe</advisor>
+            <initial_enrollment>August 2017</initial_enrollment>
+            <graduation_date>May 2021</graduation_date>
+        </school_stats>
+    </student>
+</student_list>
