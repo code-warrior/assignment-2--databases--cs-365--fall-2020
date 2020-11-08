@@ -1,0 +1,22 @@
+<!-- Document Type Defined this way due to issues utilizing attr and content, was unable to determine proper use (not familiar enough with css) -->
+<!ELEMENT directory (student)*> <!-- declares directory w/ student subset-->
+<!ELEMENT student (has)*> <!-- declares student with has sub-element -->
+    <!ELEMENT has (ID|name|contact_info|enrollment_info)*> <!-- declares has with relevant sub-elements -->
+    <!ELEMENT ID (#PCDATA)>
+    <!ELEMENT name (first|middle|last|pref)*> <!-- declares name with relevant sub-elements -->
+        <!ELEMENT first (#PCDATA)>
+        <!ELEMENT middle (#PCDATA)>
+        <!ELEMENT last (#PCDATA)>
+        <!ELEMENT pref (#PCDATA)>
+    <!ELEMENT contact_info (email|phone)*> <!-- declares contact with relevant sub-elements -->
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT enrollment_info (year|major|minor|gpa|status|advisor|enroll_date|graduation_date)*> <!-- declares enrollment info w/ relevant sub-elements -->
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT major (#PCDATA)>
+        <!ELEMENT minor (#PCDATA)>
+        <!ELEMENT gpa (#PCDATA)>
+        <!ELEMENT status (#PCDATA)>
+        <!ELEMENT advisor (#PCDATA)>
+        <!ELEMENT enroll_date (#PCDATA)>
+        <!ELEMENT graduation_date (#PCDATA)>
