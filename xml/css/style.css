@@ -27,7 +27,7 @@ academic_record{
 
 student::before{
   font-weight:bolder;
-  font-size:40px;
+  font-size:36px;
   content: "Student ID: " attr(id);
 }
 
