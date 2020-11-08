@@ -1,0 +1,75 @@
+/* Styling is not my strong suit */
+student_list {
+  color: white;
+  background-color: gray;
+  width: 100%;
+}
+
+student {
+  display: block;
+  border: 1px solid silver;
+}
+
+[ID]::before {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  content: "ID: " attr(ID) " ";
+}
+
+/*Name is used as a header */
+name {
+  color: red;
+  font-size: 30px;
+}
+
+name, contact, year, gpa, degree, status, advisor, enrollment_date, graduation_date{
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+email, phone, minor, major {
+  display: block;
+}
+
+/*Make it understandable */
+email::before {
+  content: "Email: ";
+}
+
+phone::before {
+  content: "Phone Number: ";
+}
+
+year::before {
+  content: "Current year: ";
+}
+
+[gpa_id]::before {
+ content: "GPA: "attr(gpa_id) " ";
+}
+
+major::before {
+  content: "Major: ";
+}
+
+minor::before {
+  content: "Minor: ";
+}
+
+status::before {
+  content: "Status: ";
+}
+
+advisor::before {
+  content: "Advisor: ";
+}
+
+enrollment_date::before {
+  content: "Enrollment Date: ";
+}
+
+graduation_date::before {
+  content: "Graduation Date: "
+}

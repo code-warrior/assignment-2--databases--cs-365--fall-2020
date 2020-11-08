@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE student_list SYSTEM "dtd/student.dtd">
+
+<?xml-stylesheet href="css/style.css"?>
+
+<student_list>
+  <student ID = "1">
+
+    <name>
+      <first>Tyler</first>
+      <middle>Joseph</middle>
+      <last>Reilly</last>
+    </name>
+
+
+    <contact>
+      <email>Treilly@hartford.edu</email>
+      <email>tylerreily99@gmail.com</email>
+      <phone>123-231-1231</phone>
+    </contact>
+
+    <year>senior</year>
+    <gpa gpa_id="3.36"/>
+    <degree>
+      <major>Computer Science</major>
+      <minor>Math</minor>
+    </degree>
+    <status>full-time</status>
+    <advisor>Ingrid Russell</advisor>
+    <enrollment_date>2017</enrollment_date>
+    <graduation_date>2021</graduation_date>
+  </student>
+
+  <student ID = "2">
+    <name>
+      <first>William</first>
+      <middle>Silly</middle>
+      <last>Willy</last>
+      <preferred>Billy</preferred>
+    </name>
+
+    <contact>
+      <email>Billysilly@hartford.edu</email>
+      <email>billysilly@gmail.com</email>
+      <phone>321-534-3454</phone>
+    </contact>
+
+    <year>Second</year>
+    <gpa gpa_id="3.00"/>
+    <degree>
+      <major>Civil Engineering</major>
+    </degree>
+    <status>full-time</status>
+    <advisor>Who Knows</advisor>
+    <enrollment_date>2017</enrollment_date>
+    <graduation_date>2021</graduation_date>
+  </student>
+
+</student_list>
