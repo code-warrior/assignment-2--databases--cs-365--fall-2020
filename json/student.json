@@ -1,0 +1,22 @@
+{"student_list":[
+  {"name":  [
+    "first_name": "Jonathan",
+    "middle_name": [],
+    "last_name": "Goldenberg",
+    "preferred_name": ["Jon"]
+  ]},
+  {"contact":  [
+    "email": ["jgoldenbe@gmail.com", "jgold@gmail.com"],
+    "phone": ["111-111-1111"]
+  ]},
+  {"school_stats":  [
+    "year": "fourth year",
+    "gpa": "3.0",
+    "major": ["Multimedia Wed Design and Development"],
+    "minor": ["Computer Science"],
+    "status": "full time",
+    "advisor": ["John Doe"],
+    "initial_enrollment": "August 2017",
+    "graduation_date": "May 2021"
+  ]}
+]}
