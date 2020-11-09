@@ -7,31 +7,25 @@
 <student_database>
     <student student_id="1000001">
         <has>
-            <student_name>
+            <name first_name="Keith" middle_name="James" last_name="Eagleson" preferred_name="Keith" />
+            <contact>
                 <has>
-                    <first_name>Keith</first_name>
-                    <middle_name>James</middle_name>
-                    <last_name>Eagleson</last_name>
-                    <preferred_name>Keith</last_name>
+                    <email_address>keagleson@hartford.edu</email_address>
+                    <phone_number>401-111-1111</phone_number>
                 </has>
-            </student_name>
-            <contact_details>
+            </contact>
+            <program>
                 <has>
-                    <email email_address="keagleson@hartford.edu" />
-                    <phone primary="401-111-1111" />
-                </has>
-            </contact_details>
-            <program_details>
-                <has>
-                    <status year="Forth Year" />
-                    <gpa score="3.93" />
+                    <status year="Fourth Year" />
+                    <gpa score="3.93" scale="4.00" />
                     <major program="Computer Science" degree_type="Bachelor of Science" />
+                    <minor />
                     <status type="Part-Time" />
                     <advisor name="Andrew Jung" />
                     <enrollment_date date="2018-06-15" />
                     <graduation_date expected_date="2021-01-05" />
                 </has>
-            </program_details>
+            </program>
         </has>
     </student>
 </student_database>

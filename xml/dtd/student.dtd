@@ -1,8 +1,45 @@
-<!ELEMENT student_database (student*)>
+<!ELEMENT student_database (student)*>
 
-<!ELEMENT student (has)>
-    <!ATTLIST student_id ID #REQUIRED>
+<!ELEMENT student (has)*>
+<!ATTLIST student
+        student_id ID #REQUIRED>
 
-<!ELEMENT has (student_name, contact_details, program_details)>
+<!ELEMENT has (name|contact|email_address|phone_number|program|status|gpa|major|minor|advisor|enrollment_date|graduation_date)*>
 
-<!ELEMENT student_name
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+        first_name CDATA #REQUIRED
+        middle_name CDATA #REQUIRED
+        last_name CDATA #REQUIRED
+        preferred_name CDATA #REQUIRED>
+
+<!ELEMENT contact (has)*>
+
+<!ELEMENT email_address (#PCDATA)>
+<!ELEMENT phone_number (#PCDATA)>
+<!ELEMENT program (has)*>
+<!ELEMENT status (#PCDATA)>
+<!ATTLIST status
+        type CDATA #IMPLIED
+        year CDATA #IMPLIED>
+<!ELEMENT gpa (#PCDATA)>
+<!ATTLIST gpa
+        score CDATA #REQUIRED
+        scale CDATA #REQUIRED>
+<!ELEMENT major (#PCDATA)>
+<!ATTLIST major
+        program CDATA #REQUIRED
+        degree_type CDATA #REQUIRED>
+<!ELEMENT minor (#PCDATA)>
+<!ATTLIST minor
+        program CDATA #IMPLIED
+        degree_type CDATA #IMPLIED>
+<!ELEMENT advisor (#PCDATA)>
+<!ATTLIST advisor
+        name CDATA #REQUIRED>
+<!ELEMENT enrollment_date (#PCDATA)>
+<!ATTLIST enrollment_date
+        date CDATA #REQUIRED>
+<!ELEMENT graduation_date (#PCDATA)>
+<!ATTLIST graduation_date
+        expected_date CDATA #REQUIRED>
