@@ -16,11 +16,10 @@
             </contact>
             <program>
                 <has>
-                    <status year="Fourth Year" />
+                    <status year="Fourth Year" type="Part-Time" />
                     <gpa score="3.93" scale="4.00" />
-                    <major program="Computer Science" degree_type="Bachelor of Science" />
+                    <major program="Computer Science" type="Bachelor of Science" />
                     <minor />
-                    <status type="Part-Time" />
                     <advisor name="Andrew Jung" />
                     <enrollment_date date="2018-06-15" />
                     <graduation_date expected_date="2021-01-05" />
