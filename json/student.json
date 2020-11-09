@@ -1,0 +1,17 @@
+{
+  "firstname" : "Grayson",
+  "middlename" : "James",
+  "lastname" : "Allen",
+  "preferredname" : "James",
+  "studentid" : "324324",
+  "email" : "graysonjallen3@gmail.com",
+  "phone" : "(324)333-2424",
+  "studentyear" : "First Year",
+  "gpa" : 2.25,
+  "major" : "Computer Science",
+  "minor" : "Psychology",
+  "studentstatus" : "Part-time",
+  "advisor" : "Taylor Jenkins",
+  "dateofie" : "03/01/2020",
+  "graduationdate" : "05/15/2024"
+}
