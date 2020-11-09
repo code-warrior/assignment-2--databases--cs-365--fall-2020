@@ -1,0 +1,31 @@
+heading{
+    color: black;
+    background-color: lavender;
+    font-size: 40px;
+}
+
+student_library{
+    content: attr(format);
+    font-size: 20px;
+}
+
+student:before{
+    content: "\A" attr(first_name)" "attr(last_name);
+    white-space: pre;
+}
+
+student:after{
+    font-size: 10px;
+    content: " ("attr(pref_name)") \A email: "attr(email)
+    "\A Phone Number: "attr(phone)
+    "\A Year: "attr(year)
+    "\A GPA: "attr(gpa)
+    "\A Major: "attr(major)
+    "\A Minor: "attr(minor)
+    "\A Status: "attr(status)
+    "\A Advisor: "attr(advisor)
+    "\A Initial Enrollment Date: "attr(enrollment)
+    "\A Anticipatd Graduation Date: "attr(graduation)
+    "\A\A";
+    white-space: pre;
+}

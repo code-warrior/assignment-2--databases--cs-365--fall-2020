@@ -1,0 +1,25 @@
+<!ELEMENT student_library (heading|student)*>
+    <!ATTLIST student_library
+        format CDATA #REQUIRED>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT student (#PCDATA)>
+    <!ATTLIST student
+        student_id id #REQUIRED
+        first_name CDATA #REQUIRED
+        middle_name CDATA #REQUIRED
+        last_name CDATA #REQUIRED
+        pref_name CDATA #REQUIRED
+        email CDATA #REQUIRED
+        phone CDATA #REQUIRED
+        year CDATA #REQUIRED
+        gpa CDATA #REQUIRED
+        major CDATA #REQUIRED
+        minor CDATA #REQUIRED
+        status CDATA #REQUIRED
+        advisor CDATA #REQUIRED
+        enrollment CDATA #REQUIRED
+        graduation CDATA #REQUIRED>
+
+
+
+
