@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="css\style.css"?>
+<!DOCTYPE College_Directory SYSTEM "dtd/student.dtd">
+<College_Directory>
+    <student id="19593544">
+        <first_name>First name: Henry</first_name>
+        <middle_name>Middle name: Peter</middle_name>
+        <last_name>Last name: Collins</last_name>
+        <preferred_name>Preferred name: Henry</preferred_name>
+        <student_id>Student ID: 19593544</student_id>
+        <email>Email: Collins@hartford.edu</email>
+        <phone>Phone: 413-668-5774</phone>
+        <year>Year: None</year>
+        <gpa> GPA: 3.80</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: graduated</student_status>
+        <advisor>Advisor: Professor Russell</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2015</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2019</graduation_date>
+    </student>
+    <student id="19368854">
+        <first_name>First name: Mary</first_name>
+        <middle_name>Middle name: Nicole</middle_name>
+        <last_name>Last name: Daniels</last_name>
+        <preferred_name>Preferred name: Mary</preferred_name>
+        <student_id>Student ID: 19368854</student_id>
+        <email>Email: Mdaniels@hartford.edu</email>
+        <phone>Phone: 860-441-2556</phone>
+        <year>Year: None</year>
+        <gpa>GPA: 3.66</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: graduated</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2013</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2017</graduation_date>
+    </student>
+    <student id="19778028">
+        <first_name>First name: Maria</first_name>
+        <middle_name>Middle name: Christina</middle_name>
+        <last_name>Last name: Davis</last_name>
+        <preferred_name>Preferred name: Maria</preferred_name>
+        <student_id>Student ID: 19778028</student_id>
+        <email>Email: Mdavis@hartford.edu</email>
+        <phone>Phone: 860-223-1886</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.70</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Russell</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2021</graduation_date>
+    </student>
+    <student id="19649173">
+        <first_name>First name: Michelle</first_name>
+        <middle_name>Middle name: Patricia</middle_name>
+        <last_name>Last name: Ford</last_name>
+        <preferred_name>Preferred name: Michelle</preferred_name>
+        <student_id>Student ID: 19649173</student_id>
+        <email>Email: Miford@hartford.edu</email>
+        <phone>Phone: 413-743-5569</phone>
+        <year>Year: Second-year</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Science</major>
+        <minor> Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Russell</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2016</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2020</graduation_date>
+    </student>
+    <student id="19742866">
+        <first_name>First name: Robert</first_name>
+        <middle_name>Middle name: Michael</middle_name>
+        <last_name>Last name: Foreman</last_name>
+        <preferred_name>Preferred name: Bob</preferred_name>
+        <student_id>Student ID: 19742866</student_id>
+        <email>Email: Foreman@hartford.edu</email>
+        <phone>Phone: 413-849-7681</phone>
+        <year>Year: Fourth-year</year>
+        <gpa>GPA: 3.55</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: withdrawn</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: December 2021</graduation_date>
+    </student>
+    <student id="19638469">
+        <first_name>First name: Elizabeth</first_name>
+        <middle_name>Middle name: Jane</middle_name>
+        <last_name>Last name: Johnson</last_name>
+        <preferred_name>Preferred name: Liz</preferred_name>
+        <student_id>Student ID: 19638469</student_id>
+        <email>Email: Johnson@hartford.edu</email>
+        <phone>Phone: 413-461-7253</phone>
+        <year>Year: Second-year</year>
+        <gpa>GPA: 3.70</gpa>
+        <major>Major: Computer Science</major>
+        <minor> Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Rosiene</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2016</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2020</graduation_date>
+    </student>
+    <student id="19467998">
+        <first_name>First name: Danielle</first_name>
+        <middle_name>Middle name: Barbara</middle_name>
+        <last_name>Last name: Kincaid</last_name>
+        <preferred_name>Preferred name: Danielle</preferred_name>
+        <student_id>Student ID: 19467998</student_id>
+        <email>Email: Kincaid@hartford.edu</email>
+        <phone>Phone: 203-336-9742</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 4.00</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Yu</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2021</graduation_date>
+    </student>
+    <student id="19854366">
+        <first_name>First name: Richard</first_name>
+        <middle_name>Middle name: David</middle_name>
+        <last_name>Last name: Manning</last_name>
+        <preferred_name>Preferred name: Dave</preferred_name>
+        <student_id>Student ID: 19854366</student_id>
+        <email>Email: Rimann@hartford.edu</email>
+        <phone>Phone: 203-249-1154</phone>
+        <year>Year: Second-year</year>
+        <gpa>GPA: 3.67</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Becker</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2018</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2022</graduation_date>
+    </student>
+    <student id="19678245">
+        <first_name>First name: Richard</first_name>
+        <middle_name>Middle name: James</middle_name>
+        <last_name>Last name: Manning</last_name>
+        <preferred_name>Preferred name: Rick</preferred_name>
+        <student_id>Student ID: 19678245</student_id>
+        <email> Email: Rmanning@hartford.edu</email>
+        <phone> Phone: 860-197-3492</phone>
+        <year>Year: None</year>
+        <gpa>GPA: 3.85</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: Graduated</student_status>
+        <advisor>Advisor: Professor Rosiene</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2016</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2020</graduation_date>
+    </student>
+    <student id="19793554">
+        <first_name>First name: Nancy</first_name>
+        <middle_name>Middle name: Leslie</middle_name>
+        <last_name>Last name: Martinez</last_name>
+        <preferred_name>Preferred name: Nancy</preferred_name>
+        <student_id>Student ID: 19793554</student_id>
+        <email>Email: Nmartinez@hartford.edu</email>
+        <phone>Phone: 413-284-3755</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.90</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: part-time</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2022</graduation_date>
+    </student>
+    <student id="19468536">
+        <first_name>First name: Robert</first_name>
+        <middle_name>Middle name: James</middle_name>
+        <last_name>Last name: Nicholas</last_name>
+        <preferred_name>Preferred name: Rob</preferred_name>
+        <student_id>Student ID: 19468536</student_id>
+        <email>Email: Rnicholas@hartford.edu</email>
+        <phone>Phone: 860-469-8731</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2014</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2018</graduation_date>
+    </student>
+    <student id="19682391">
+        <first_name>First name: Anna</first_name>
+        <middle_name>Middle name: Charlotte</middle_name>
+        <last_name>Last name: Nichols</last_name>
+        <preferred_name>Preferred name: Anna</preferred_name>
+        <student_id>Student ID: 19682391</student_id>
+        <email>Email: Anichols@hartford.edu</email>
+        <phone>Phone: 860-248-4436</phone>
+        <year>Year: Third-year</year>
+        <gpa>GPA: 3.79</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Becker</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2016</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2020</graduation_date>
+    </student>
+    <student id="19934526">
+        <first_name>First name: Victoria</first_name>
+        <middle_name>Middle name: Michelle</middle_name>
+        <last_name>Last name: Peterson</last_name>
+        <preferred_name>Preferred name: Vicky</preferred_name>
+        <student_id>Student ID: 19934526</student_id>
+        <email>Email: Peterson@hartford.edu</email>
+        <phone>Phone: 203-785-4691</phone>
+        <year>Year: Third-year</year>
+        <gpa>GPA: 3.75</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: part-time</student_status>
+        <advisor>Advisor: Professor Yu</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2019</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2024</graduation_date>
+    </student>
+    <student id="19751648">
+        <first_name>First name: Michael</first_name>
+        <middle_name>Middle name: Robert</middle_name>
+        <last_name>Last name: Phillips</last_name>
+        <preferred_name>Preferred name: Mike</preferred_name>
+        <student_id>Student ID: 19751648</student_id>
+        <email>Email: Mphillips@hartford.edu</email>
+        <phone>Phone: 203-946-7311</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor> Minor: Math</minor>
+        <student_status>Student status: part-time</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2023</graduation_date>
+    </student>
+    <student id="19135569">
+        <first_name>First name: Christopher</first_name>
+        <middle_name>Middle name: Brian</middle_name>
+        <last_name>Last name: Porter</last_name>
+        <preferred_name>Preferred name: Chris</preferred_name>
+        <student_id>Student ID: 19135569</student_id>
+        <email>Email: Chporter@hartford.edu</email>
+        <phone>Phone: 203-654-3987</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: withdrawn</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2011</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2015</graduation_date>
+    </student>
+    <student id="19564469">
+        <first_name>First name: Christopher</first_name>
+        <middle_name>Middle name: Steven</middle_name>
+        <last_name>Last name: Porter</last_name>
+        <preferred_name>Preferred name: Steve</preferred_name>
+        <student_id>Student ID: 19564469</student_id>
+        <email>Email: Cporter@hartford.edu</email>
+        <phone>Phone: 413-197-3492</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.70</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2015</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2020</graduation_date>
+    </student>
+    <student id="19324896">
+        <first_name>First name: Ryan</first_name>
+        <middle_name>Middle name: Michael</middle_name>
+        <last_name>Last name: Porter</last_name>
+        <preferred_name>Preferred name: Ryan</preferred_name>
+        <student_id>Student ID: 19324896</student_id>
+        <email>Email: Rporter@hartford.edu</email>
+        <phone>Phone: 860-647-8221</phone>
+        <year>Year: none</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Science</major>
+        <minor> Minor: Math</minor>
+        <student_status>Student status: graduated</student_status>
+        <advisor>Advisor: Professor Rosiene</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2013</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2018</graduation_date>
+    </student>
+    <student id="19761335">
+        <first_name>First name: Veronica</first_name>
+        <middle_name>Middle name: Christina</middle_name>
+        <last_name>Last name: Potter</last_name>
+        <preferred_name>Preferred name: Christy</preferred_name>
+        <student_id>Student ID: 19761335</student_id>
+        <email>Email: Vepotter@hartford.edu</email>
+        <phone>Phone: 860-645-8821</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.90</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Rosiene</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2021</graduation_date>
+    </student>
+    <student id="19783304">
+        <first_name>First name: Audrey</first_name>
+        <middle_name>Middle name: Katherine</middle_name>
+        <last_name>Last name: Sanders</last_name>
+        <preferred_name>Preferred name: Audrey</preferred_name>
+        <student_id>Student ID: 19783304</student_id>
+        <email>Email: Asanders@hartford.edu</email>
+        <phone>Phone: 203-497-2813</phone>
+        <year>Year: First-year</year>
+        <gpa> GPA: 3.30</gpa>
+        <major>Major: Computer Science</major>
+        <minor> Minor: None</minor>
+        <student_status>Student status: part-time</student_status>
+        <advisor>Advisor: Professor Becker</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2021</graduation_date>
+    </student>
+    <student id="19432416">
+        <first_name>First name: Abigail</first_name>
+        <middle_name>Middle name: Elizabeth</middle_name>
+        <last_name >Last name: Stevens</last_name>
+        <preferred_name >Preferred name: Abby</preferred_name>
+        <student_id>Student ID: 19432416</student_id>
+        <email>Email: Astevens@hartford.edu</email>
+        <phone>Phone: 413-355-1494</phone>
+        <year>Year: Fourth-year</year>
+        <gpa>GPA: 3.85</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: withdrawn</student_status>
+        <advisor>Advisor: Professor Russell</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2014</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2018</graduation_date>
+    </student>
+    <student id="19742356">
+        <first_name>First name: Christopher</first_name>
+        <middle_name>Middle name: Robert</middle_name>
+        <last_name>Last name: Stevens</last_name>
+        <preferred_name>Preferred name: Chris</preferred_name>
+        <student_id>Student ID: 19742356</student_id>
+        <email>Email: Cstevens@hartford.edu</email>
+        <phone>Phone: 860-146-8297</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2017</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2022</graduation_date>
+    </student>
+    <student id="19853372">
+        <first_name>First name: Rachel</first_name>
+        <middle_name>Middle name: Alexandria</middle_name>
+        <last_name>Last name: Van Joss</last_name>
+        <preferred_name>Preferred name: Rachel</preferred_name>
+        <student_id>Student ID: 19853372</student_id>
+        <email>Email: Rvanjoss@hartford.edu</email>
+        <phone>Phone: 413-769-5532</phone>
+        <year>Year: First-year</year>
+        <gpa>GPA: 3.80</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: Math</minor>
+        <student_status>Student status: part-time</student_status>
+        <advisor>Advisor: Professor Eppes</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2018</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2022</graduation_date>
+    </student>
+    <student id="19466998">
+        <first_name>First name: Peter</first_name>
+        <middle_name>Middle name: Xi</middle_name>
+        <last_name>Last name: Yong</last_name>
+        <preferred_name>Preferred name: Peter</preferred_name>
+        <student_id>Student ID: 19466998</student_id>
+        <email>Email: Yong@hartford.edu</email>
+        <phone>Phone: 203-796-3551</phone>
+        <year>Year: Third-year</year>
+        <gpa>GPA: 3.50</gpa>
+        <major>Major: Computer Engineering</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Yu</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2014</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2018</graduation_date>
+    </student>
+    <student id="19463179">
+        <first_name>First name: Declan</first_name>
+        <middle_name>Middle name: Peter</middle_name>
+        <last_name>Last name: Young</last_name>
+        <preferred_name>Preferred name: Declan</preferred_name>
+        <student_id>Student ID: 19463179</student_id>
+        <email>Email: Dyoung@hartford.edu</email>
+        <phone>Phone: 203-446-1879</phone>
+        <year>Year: Second-year</year>
+        <gpa>GPA: 3.90</gpa>
+        <major>Major: Computer Science</major>
+        <minor>Minor: None</minor>
+        <student_status>Student status: full-time</student_status>
+        <advisor>Advisor: Professor Becker</advisor>
+        <date_of_initial_enrollment>Date of initial enrollment: September 2014</date_of_initial_enrollment>
+        <graduation_date>Graduation date: May 2018</graduation_date>
+    </student>
+</College_Directory>
