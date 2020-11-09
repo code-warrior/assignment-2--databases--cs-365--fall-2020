@@ -92,7 +92,7 @@ advisor::before{
 }
 
 initEnroll::before{
-    content: "Intitial Enrollment Year: "attr(initEnroll);
+    content: "Date of Intitial Enrollment: "attr(initEnroll);
 }
 
 gradDate::before{
