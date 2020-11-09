@@ -1,0 +1,48 @@
+{
+    "student": {
+        "student_id":  1000001,
+        "has": {
+            "name": {
+                "first_name": "Keith",
+                "middle_name": "James",
+                "last_name": "Eagleson",
+                "preferred_name": "Keith"
+            },
+            "contact": {
+                "has": {
+                    "email_address": "keagleson@hartford.edu",
+                    "primary_phone_number": "401-555-3321",
+                }
+            },
+            "program": {
+                "has": {
+                    "status": {
+                        "year": "Fourth Year",
+                        "type": "Part-Time"
+                    },
+                    "gpa": {
+                        "score": 3.93,
+                        "scale": 4.00
+                    },
+                    "major": {
+                        "program": "Computer Science",
+                        "type": "Bachelor of Science"
+                    },
+                    "minor": {
+                        "program": null,
+                        "type": null
+                    },
+                    "advisor": {
+                        "name": "Andrew Jung"
+                    },
+                    "enrolloment_date": {
+                        "date": "2018-06-15"
+                    },
+                    "graduation_date": {
+                        "expected_date": "2021-01-05"
+                    }
+                }
+            }
+        }
+    }
+}
