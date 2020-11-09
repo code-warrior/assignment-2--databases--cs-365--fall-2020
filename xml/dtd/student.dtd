@@ -1,8 +1,8 @@
 <!ELEMENT student_database (student)*>
 
 <!ELEMENT student (has)*>
-<!ATTLIST student
-        student_id ID #REQUIRED>
+    <!ATTLIST student
+        student_id CDATA #REQUIRED>
 
 <!ELEMENT has (name|contact|email_address|phone_number|program|status|gpa|major|minor|advisor|enrollment_date|graduation_date)*>
 
@@ -29,7 +29,7 @@
 <!ELEMENT major (#PCDATA)>
 <!ATTLIST major
         program CDATA #REQUIRED
-        degree_type CDATA #REQUIRED>
+        type CDATA #REQUIRED>
 <!ELEMENT minor (#PCDATA)>
 <!ATTLIST minor
         program CDATA #IMPLIED
