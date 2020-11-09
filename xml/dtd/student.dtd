@@ -7,7 +7,7 @@
 <!ELEMENT has (name|contact|email_address|phone_number|program|status|gpa|major|minor|advisor|enrollment_date|graduation_date)*>
 
 <!ELEMENT name (#PCDATA)>
-<!ATTLIST name
+    <!ATTLIST name
         first_name CDATA #REQUIRED
         middle_name CDATA #REQUIRED
         last_name CDATA #REQUIRED
@@ -19,27 +19,27 @@
 <!ELEMENT phone_number (#PCDATA)>
 <!ELEMENT program (has)*>
 <!ELEMENT status (#PCDATA)>
-<!ATTLIST status
+    <!ATTLIST status
         type CDATA #IMPLIED
         year CDATA #IMPLIED>
 <!ELEMENT gpa (#PCDATA)>
-<!ATTLIST gpa
+    <!ATTLIST gpa
         score CDATA #REQUIRED
         scale CDATA #REQUIRED>
 <!ELEMENT major (#PCDATA)>
-<!ATTLIST major
+    <!ATTLIST major
         program CDATA #REQUIRED
         type CDATA #REQUIRED>
 <!ELEMENT minor (#PCDATA)>
-<!ATTLIST minor
+    <!ATTLIST minor
         program CDATA #IMPLIED
         degree_type CDATA #IMPLIED>
 <!ELEMENT advisor (#PCDATA)>
-<!ATTLIST advisor
+    <!ATTLIST advisor
         name CDATA #REQUIRED>
 <!ELEMENT enrollment_date (#PCDATA)>
-<!ATTLIST enrollment_date
+    <!ATTLIST enrollment_date
         date CDATA #REQUIRED>
 <!ELEMENT graduation_date (#PCDATA)>
-<!ATTLIST graduation_date
+    <!ATTLIST graduation_date
         expected_date CDATA #REQUIRED>
