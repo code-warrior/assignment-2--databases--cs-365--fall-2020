@@ -1,0 +1,21 @@
+<!ELEMENT College_Directory (student+)>
+        <!ATTLIST College_Directory> <!--This creates the directory of students in the college. -->
+<!ELEMENT student (first_name, middle_name, last_name, preferred_name, student_id, email, phone, year,
+    gpa, major, minor, student_status, advisor, date_of_initial_enrollment, graduation_date) #PCDATA>   <!-- This contains all the information that each student will have to identify them.-->
+   <!ATTLIST student id ID #REQUIRED>   <!-- This is where the student is given a unique identifier so two students are not the same. -->
+<!--<!ELEMENT CDATA EMPTY> -->
+<!ELEMENT first_name ANY>   <!-- This is where the first name of the student is placed. -->
+<!ELEMENT middle_name ANY>  <!-- This is where the middle name of the student is placed. -->
+<!ELEMENT last_name ANY>    <!-- This is where the last name of the student is placed. -->
+<!ELEMENT preferred_name ANY>   <!-- This is where the preferred name of the student is placed. -->
+<!ELEMENT student_id ANY>   <!-- This is where the student id of the student is placed. -->
+<!ELEMENT email ANY>   <!-- This is where the email of the student is placed. -->
+<!ELEMENT phone ANY>   <!-- This is where the phone number of the student is placed. -->
+<!ELEMENT year ANY>   <!-- This is where the year of the student is placed. -->
+<!ELEMENT gpa ANY>   <!-- This is where the gpa of the student is placed. -->
+<!ELEMENT major ANY>   <!-- This is where the major of the student is placed. -->
+<!ELEMENT minor ANY>   <!-- This is where the minor of the student is placed. -->
+<!ELEMENT student_status ANY>   <!-- This is where the student status of the student is placed. -->
+<!ELEMENT advisor ANY>   <!-- This is where the advisor of the student is placed. -->
+<!ELEMENT date_of_initial_enrollment ANY>   <!-- This is where the date of initial enrollment of the student is placed. -->
+<!ELEMENT graduation_date ANY> <!-- This is where the graduation date of the student is placed. -->
