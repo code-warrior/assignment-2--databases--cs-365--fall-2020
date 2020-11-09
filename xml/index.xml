@@ -22,7 +22,29 @@
                     <minor />
                     <advisor name="Andrew Jung" />
                     <enrollment_date date="2018-06-15" />
-                    <graduation_date expected_date="2021-01-05" />
+                    <graduation_date date="2021-01-05" />
+                </has>
+            </program>
+        </has>
+    </student>
+    <student student_id="1000002">
+        <has>
+            <name first_name="Keith" middle_name="George" last_name="Eagleson" preferred_name="K" />
+            <contact>
+                <has>
+                    <email_address>keagleson1@hartford.edu</email_address>
+                    <phone_number>602-333-1234</phone_number>
+                </has>
+            </contact>
+            <program>
+                <has>
+                    <status year="First Year" type="Full-Time" />
+                    <gpa score="0.00" scale="4.00" />
+                    <major program="Physics" type="Bachelor of Science" />
+                    <minor program="Mathematics" />
+                    <advisor name="Bill Gates" />
+                    <enrollment_date date="2020-08-27" />
+                    <graduation_date date="2024-05-15" />
                 </has>
             </program>
         </has>

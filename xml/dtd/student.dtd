@@ -32,8 +32,7 @@
         type CDATA #REQUIRED>
 <!ELEMENT minor (#PCDATA)>
     <!ATTLIST minor
-        program CDATA #IMPLIED
-        degree_type CDATA #IMPLIED>
+        program CDATA #IMPLIED>
 <!ELEMENT advisor (#PCDATA)>
     <!ATTLIST advisor
         name CDATA #REQUIRED>
@@ -42,4 +41,4 @@
         date CDATA #REQUIRED>
 <!ELEMENT graduation_date (#PCDATA)>
     <!ATTLIST graduation_date
-        expected_date CDATA #REQUIRED>
+        date CDATA #REQUIRED>
