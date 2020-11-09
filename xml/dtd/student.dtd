@@ -1,0 +1,28 @@
+<!-- #PCDATA character data only-->
+
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT html (head,body)>
+
+
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT mname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT pname (#PCDATA)>
+<!ELEMENT sid (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT stat (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT enroll (#PCDATA)>
+<!ELEMENT grad (#PCDATA)>
+
+<!ELEMENT personal (fname*,mname*,lname*,pname*,sid*,email*,phone*)>
+<!ELEMENT status (year*,gpa*,major*,minor*,stat*,advisor*,enroll*,grad*)>
+<!ELEMENT student (personal,status)>
+<!ELEMENT students (student+)>
+
