@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE student_lookup SYSTEM "dtd/student.dtd">
+<?xml-stylesheet href="css/style.css"?>
+
+<!--Programmer: Erik Rodriguez-->
+<!--Due Date: 11/8/2020-->
+<!--Purpose: To show how XML databases function-->
+
+<student_lookup format="student">
+    <heading>University Student Lookup</heading>
+    <student Student_ID ="8675309"
+             Student_firstname ="Kevin"
+             Student_lastname ="Smith"
+             Student_prefname ="Kev"
+             Student_email ="SmithKev@hartford.edu"
+             Student_phone ="432-793-4729"
+             Student_status ="Second Year"
+             Student_GPA ="3.7"
+             Student_Major ="Acting"
+             Student_Minor ="Entrepreneurship"
+             Student_Status ="Full-time"
+             Student_Advisor ="Professor Connors"
+             Student_Enrollment ="August 20th, 2018"
+             Student_Graduation ="May 20th, 2022"/>
+
+    <student Student_ID ="9003785"
+             Student_firstname ="Kevin"
+             Student_lastname ="Smith"
+             Student_prefname ="Kevin"
+             Student_email ="SmithK@hartford.edu"
+             Student_phone ="972-023-9974"
+             Student_status ="First Year"
+             Student_GPA ="3.0"
+             Student_Major ="Electrical Engineering"
+             Student_Minor ="Computer Science"
+             Student_Status ="Full-time"
+             Student_Advisor ="Professor Stevens"
+             Student_Enrollment ="August 10th, 2020"
+             Student_Graduation ="May 20th, 2024"/>
+
+    <student Student_ID ="7830281"
+             Student_firstname ="Johnathan"
+             Student_lastname ="McKinney"
+             Student_prefname ="John"
+             Student_email ="JMcKinney@hartford.edu"
+             Student_phone ="749-563-2394"
+             Student_status ="Fourth Year"
+             Student_GPA ="3.4"
+             Student_Major ="Finance"
+             Student_Minor ="Marketing"
+             Student_Status ="Part-time"
+             Student_Advisor ="Professor Johnson"
+             Student_Enrollment ="August 10th, 2016"
+             Student_Graduation ="May 20th, 2020"/>
+
+    <student Student_ID ="5038262"
+             Student_firstname ="Steven"
+             Student_lastname ="Sherman"
+             Student_prefname ="Steve"
+             Student_email ="ShermanS@hartford.edu"
+             Student_phone ="903-023-7396"
+             Student_status ="Fourth Year"
+             Student_GPA ="3.9"
+             Student_Major ="Computer Engineering"
+             Student_Minor ="Entrepreneurship"
+             Student_Status ="Graduated"
+             Student_Advisor ="Professor Brians"
+             Student_Enrollment ="August 20th, 2006"
+             Student_Graduation ="May 20th, 2010"/>
+</student_lookup>
