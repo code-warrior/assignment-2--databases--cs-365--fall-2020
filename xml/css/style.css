@@ -1,0 +1,6 @@
+student:before
+{  
+    background-color: White;
+    content: attr(firstname) " " attr(lastname) " " attr(studentID) " ";
+    display: block;
+}

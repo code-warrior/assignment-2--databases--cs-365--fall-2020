@@ -1,0 +1,40 @@
+<?xml version="1.0"?>  
+<?xml-stylesheet type="text/css" href="css/style.css"?>  
+<!DOCTYPE student SYSTEM "dtd/student.dtd">  
+<students><!-- creation of the first student-->
+    <student 
+        firstname="john"
+        middlename="mid"
+        lastname="doe"
+        preferredname = "firstest"
+        studentID = "12345678"
+        email = "email@example.com"
+        phonenum = "555-555-5555"
+        yearstatus = "senior"
+        gpa = "3.9"
+        major = "compe"
+        minor ="phys"
+        statustime = "fulltime"
+        advisor = "Professor Hill"
+        enrolldate = "fall 2017"
+        graddate = "spring 2021"
+    /><!-- creation of the second student with the same name and some minor changes-->
+    <!-- Only garenteed change between the two is student ID-->
+    <student
+        firstname="john"
+        middlename="mid"
+        lastname="doe"
+        preferredname = "firstest"
+        studentID = "12345679"
+        email = "email2@example.com"
+        phonenum = "555-555-5556"
+        yearstatus = "senior"
+        gpa = "3.8"
+        major = "compe"
+        minor ="phys"
+        statustime = "fulltime"
+        advisor = "Professor Hill"
+        enrolldate = "fall 2017"
+        graddate = "spring 2021"
+    />
+</students>
