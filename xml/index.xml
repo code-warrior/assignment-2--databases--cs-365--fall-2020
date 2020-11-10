@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE student_registry SYSTEM "dtd/student.dtd">
+
+<?xml-stylesheet href="css/style.css"?>
+
+<student_registry>
+  <student id="student_01">
+    <name first="Elizabeth" middle="Rose" last="Smith">
+      Elizabeth Rose Smith
+      <preferred_name>Liz</preferred_name>
+    </name>
+    <email>ERSmith@school.edu</email>
+    <phone_number>800-999-9999</phone_number>
+    <student_info date_enroll="07/2017">
+      <year>3rd year</year>
+      <gpa>3.2</gpa>
+      <major>Business</major>
+      <status>Full time</status>
+      <advisor>Dr. Bill Walsh</advisor>
+      <graduation_date>05/2021</graduation_date>
+    </student_info>
+  </student>
+  <student id="student_02">
+    <name first="Elizabeth" middle="Lynn" last="Smith">
+      Elizabeth Lynn Smith
+      <preferred_name>Beth</preferred_name>
+    </name>
+    <email>ELSmith@school.edu</email>
+    <phone_number>800-123-4567</phone_number>
+    <student_info date_enroll="06/2020">
+      <year>1st year</year>
+      <gpa>2.9</gpa>
+      <major>Psychology</major>
+      <major>Criminal Justice</major>
+      <minor>Sociology</minor>
+      <status>Part time</status>
+      <advisor>Dr. Susan Peterson</advisor>
+      <graduation_date>05/2024</graduation_date>
+    </student_info>
+  </student>
+</student_registry>
