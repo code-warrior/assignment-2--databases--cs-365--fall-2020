@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="css/style.css"?>
+<!DOCTYPE student SYSTEM "dtd/student.dtd">
+<student>
+	<name first="Grayson" middle="James" last="Allen"/>
+	<preferred_name>G</preferred_name>
+	<student_id>333333</student_id>
+	<email>gallen324@gmail.com</email>
+	<phone>(203)324-3324</phone>
+	<student_year year="first year"/>
+	<gpa>4.0</gpa>
+	<major>Marketing</major>
+	<minor>Math</minor>
+	<student_status status="third year"/>
+	<advisor>Mike Krzyzewski</advisor>
+	<date_of_ie>09/01/2014</date_of_ie>
+	<graduation_date>05/25/2019</graduation_date>
+</student>

@@ -1,0 +1,27 @@
+<!ELEMENT name EMPTY>
+  <!ATTLIST name first CDATA #REQUIRED
+		  middle CDATA #REQUIRED
+		  last CDATA #REQUIRED>
+
+<!ELEMENT preferred_name (#PCDATA)*>
+<!ELEMENT student_id (#PCDATA)+>
+<!ELEMENT email (#PCDATA)+>
+<!ELEMENT phone (#PCDATA)+>
+
+<!ELEMENT student_year EMPTY>
+	<!ATTLIST student_year
+			year ("First Year"|"Second Year"|"Third Year"|"Fourth Year") CDATA #REQUIRED>
+
+<!ELEMENT gpa (#PCDATA)+>
+<!ELEMENT major (#PCDATA)+>
+<!ELEMENT minor (#PCDATA)*>
+
+<!ELEMENT student_status EMPTY>
+	<!ATTLIST student_status
+			status ("full-time"|"part-time"|"graduated"|"withdrawn") CDATA #REQUIRED>
+
+<!ELEMENT advisor (#PCDATA)+>
+<!ELEMENT date_of_ie (#PCDATA)+>
+<!ELEMENT graduation_date (#PCDATA)*>
+
+<!ELEMENT student (name, preferred_name, student_id, email, phone, student_year, gpa, major, minor, student_status, advisor, date_of_ie, graduation_date)>
