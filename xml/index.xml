@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF=8" standalone="no"?>
+
+<!DOCTYPE students SYSTEM "student.dtd">
+
+<?xml stylesheet type="text/css" href="style.css"?>
+<students>
+    <student>
+        <personal>
+        <fname>Magdalena</fname>
+        <mname>Anne</mname>
+        <lname>Peters</lname>
+            <pname>Magda</pname>
+            <sid>1234567</sid>
+            <email>grubydzidzius@hartford.edu</email>
+            <phone>123-456-8989</phone>
+        </personal>
+        <status>
+            <major>Computer Science</major>
+            <minor>N/A</minor>
+            <gpa>3.5</gpa>
+            <year>junior</year>
+            <enroll>2018</enroll>
+            <stat>full-time</stat>
+            <advisor>bigfoot</advisor>
+        </status>
+    </student>
+
+    <student>
+        <personal>
+            <fname>Magdalena</fname>
+            <mname>Anne</mname>
+            <lname>Peters</lname>
+            <pname>Magda</pname>
+            <sid>7654321</sid>
+            <email>glupiababa@hartford.edu</email>
+            <phone>881-900-3333</phone>
+        </personal>
+        <status>
+            <major>Mechanical Engineering</major>
+            <minor>German</minor>
+            <gpa>3.4</gpa>
+            <year>sophomore</year>
+            <enroll>2019</enroll>
+            <stat>full-time</stat>
+            <advisor>frogman</advisor>
+        </status>
+    </student>
+
+    <student>
+        <personal>
+            <fname>Harry</fname>
+            <mname>N/A</mname>
+            <lname>Potter</lname>
+            <pname>Harry</pname>
+            <sid>89050412</sid>
+            <email>starydziad@hartford.edu</email>
+            <phone>791-551-0431</phone>
+        </personal>
+        <status>
+            <major>English</major>
+            <minor>Criminal Justice</minor>
+            <gpa>3.8</gpa>
+            <year>freshman</year>
+            <enroll>2020</enroll>
+            <stat>part-time</stat>
+            <advisor>Hagrid</advisor>
+        </status>
+    </student>
+
+    <student>
+    <personal>
+        <fname>Marty</fname>
+        <mname>Simba</mname>
+        <lname>Piotrowski</lname>
+        <pname>Dzidzius</pname>
+        <sid>98105465</sid>
+        <email>grubykot@hartford.edu</email>
+        <phone>333-555-8888</phone>
+    </personal>
+    <status>
+        <major>Physics</major>
+        <minor>Economics</minor>
+        <gpa>2.0</gpa>
+        <year>freshman</year>
+        <enroll>2020</enroll>
+        <stat>part-time</stat>
+        <advisor>bigfoot</advisor>
+    </status>
+    </student>
+<student>
+    <personal>
+        <fname>Leopoldo</fname>
+        <mname>N/A</mname>
+        <lname>Benevant</lname>
+        <pname>Polo</pname>
+        <sid>55553333</sid>
+        <email>beznadziejnaklasa@hartford.edu</email>
+        <phone>321-545-6754</phone>
+    </personal>
+    <status>
+        <major>Finance</major>
+        <minor>Economics</minor>
+        <gpa>3.6</gpa>
+        <year>Senior</year>
+        <enroll>2017</enroll>
+        <stat>full-time</stat>
+        <advisor>Baba</advisor>
+    </status>
+</student>
+
+    <student>
+        <personal>
+            <fname>Jonas</fname>
+            <mname>Leo</mname>
+            <lname>Kahnwald</lname>
+            <pname>Jonas</pname>
+            <sid>77779999</sid>
+            <email>piperarcher@hartford.edu</email>
+            <phone>999-555-7890</phone>
+        </personal>
+        <status>
+            <major>Computer Science</major>
+            <minor>Physics</minor>
+            <gpa>3.5</gpa>
+            <year>Junior</year>
+            <enroll>2018</enroll>
+            <stat>full-time</stat>
+            <advisor>bigfoot</advisor>
+        </status>
+    </student>
+</students>
+
+

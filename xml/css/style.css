@@ -1,0 +1,160 @@
+<!-- style.css- a style sheet for index.xml document -->
+/*sorry if it's a little messy.. */
+h1 {color: yellow;font-size:12px;}
+
+student:before{
+    display: block;
+    width: 8em;
+    font-weight: bold;
+    font-size: 200%;
+    margin: -.75em 0px .25em -.25em;
+    padding: .1em .25em;
+    background-color: aquamarine;
+}
+/*didn't make too much use of attr()*/
+
+student{
+    attr(font-weight);
+    display: block;
+    margin: 2em 1em;
+    border: 4px solid black;
+    padding: 0px 1em;
+    background-color: aquamarine;
+}
+
+fname{
+    display: block;
+    margin-bottom: 1em;
+}
+
+fname:before{
+   content: "Student's first name: ";
+}
+
+mname{
+    display: block;
+    margin-bottom: 1em;
+}
+
+mname:before{
+    content: "Student's middle name: ";
+}
+
+lname{
+    display: block;
+    margin-bottom: 1em;
+}
+
+lname:before{
+    content: "Last name: ";
+}
+
+pname{
+    display: block;
+    margin-bottom: 1em;
+}
+
+pname:before{
+    content: "Student's preferred name (ask) ";
+}
+
+sid{
+    display: block;
+    margin-bottom: 1em;
+}
+
+sid:before{
+    content:"student ID: ";
+}
+
+email{
+    display: block;
+    margin-bottom: 1em;
+}
+
+email:before{
+    content:"student's email: ";
+}
+
+phone{
+    display: block;
+    margin-bottom: 1em;
+}
+
+phone:before{
+    content: "Student's phone number: ";
+}
+
+major{
+    display: block;
+    margin-bottom: 1em;
+}
+
+major:before{
+    content: "Student's major: ";
+}
+
+minor{
+    display: block;
+    margin-bottom: 1em;
+}
+
+minor:before{
+    content: "Student's minor: ";
+}
+
+gpa{
+    display: block;
+    margin-bottom: 1em;
+}
+
+gpa:before{
+    content: "GPA: ";
+}
+
+year{
+    display: block;
+    margin-bottom: 1em;
+}
+
+year:before{
+    content:"Student's year: ";
+}
+
+enroll{
+    display: block;
+    margin-bottom: 1em;
+}
+
+enroll:before{
+    content: "year of enrollment: ";
+}
+
+stat{
+    display: block;
+    margin-bottom: 1em;
+
+}
+
+stat:before{
+    content: "Student's status: ";
+}
+
+advisor{
+    display: block;
+    margin-bottom: 1em;
+}
+
+advisor:before{
+    content: "Student's advisor: "
+}
+
+grad{
+    display: block;
+    margin-bottom: 1em;
+}
+
+grad:before{
+    content: "graduation year: ";
+}
+/* I know this could have been done a bit more efficiently but I'm under time constraint*/

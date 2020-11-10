@@ -1,0 +1,174 @@
+{
+  "students": {
+    "student": [
+      {
+        "personal": {
+          "fname": "Magdalena",
+          "mname": "Anne",
+          "lname": "Peters",
+          "pname": "Magda",
+          "sid": "12345678",
+          "email": "grubydzidzius@hartford.edu",
+          "phone": "123-456-8989"
+        },
+        "status": {
+          "major": "Computer Science",
+          "minor": "N/A",
+          "gpa": "3.5",
+          "year": "junior",
+          "enroll": "2018",
+          "stat": "full-time",
+          "advisor": "Bigfoot",
+          "grad": "2022"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Magdalena",
+          "mname": "Anne",
+          "lname": "Peters",
+          "pname": "Magda",
+          "sid": "7654321",
+          "email": "glupiababa@hartford.edu",
+          "phone": "881-900-3333"
+        },
+        "status": {
+          "major": "Mechanical Engineering",
+          "minor": "German",
+          "gpa": "3.4",
+          "year": "sophomore",
+          "enroll": "2019",
+          "stat": "full-time",
+          "advisor": "Frogman",
+          "grad": "2023"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Harry",
+          "mname": "N/A",
+          "lname": "Potter",
+          "pname": "Harry",
+          "sid": "89050412",
+          "email": "starydziad@hartford.edu",
+          "phone": "791-551-0431"
+        },
+        "status": {
+          "major": "English",
+          "minor": "Criminal Justice",
+          "gpa": "3.8",
+          "year": "freshman",
+          "enroll": "2020",
+          "stat": "part-time",
+          "advisor": "Hagrid",
+          "grad": "2024"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Marty",
+          "mname": "Simba",
+          "lname": "Piotrowski",
+          "pname": "Dzidzius",
+          "sid": "98105465",
+          "email": "grubykot@hartford.edu",
+          "phone": "333-555-8888"
+        },
+        "status": {
+          "major": "Physics",
+          "minor": "Economics",
+          "gpa": "2.0",
+          "year": "freshman",
+          "enroll": "2020",
+          "stat": "part-time",
+          "advisor": "Bigfoot",
+          "grad": "2024"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Leopoldo",
+          "mname": "N/A",
+          "lname": "Benevant",
+          "pname": "Polo",
+          "sid": "55553333",
+          "email": "beznadziejnaklasa@hartford.edu",
+          "phone": "321-545-6754"
+        },
+        "status": {
+          "major": "Finance",
+          "minor": "Economics",
+          "gpa": "3.6",
+          "year": "Senior",
+          "enroll": "2017",
+          "stat": "full-time",
+          "advisor": "Baba",
+          "grad": "2024"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Jonas",
+          "mname": "Leo",
+          "lname": "Kahnwald",
+          "pname": "Jonas",
+          "sid": "77779999",
+          "email": "piperarcher@hartford.edu",
+          "phone": "999-555-7890"
+        },
+        "status": {
+          "major": "Computer Science",
+          "minor": "Physics",
+          "gpa": "3.5",
+          "year": "Junior",
+          "enroll": "2018",
+          "stat": "full-time",
+          "advisor": "Bigfoot",
+          "grad": "2022"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Beavis",
+          "mname": "Didius",
+          "lname": "Piotrowski",
+          "pname": "Beavis",
+          "sid": "33335353",
+          "email": "kukurydza@hartford.edu",
+          "phone": "860-777-3232"
+        },
+        "status": {
+          "major": "Computer Science Engineering",
+          "minor": "N/A",
+          "gpa": "1.0",
+          "year": "Junior",
+          "enroll": "2018",
+          "stat": "full-time",
+          "advisor": "Bird",
+          "grad": "2022"
+        }
+      },
+      {
+        "personal": {
+          "fname": "Butthead",
+          "mname": "Ichabod",
+          "lname": "Roy",
+          "pname": "Butthead",
+          "sid": "10108989",
+          "email": "uspokujsie@hartford.edu",
+          "phone": "800-555-6565"
+        },
+        "status": {
+          "major": "Chemistry",
+          "minor": "Data Science",
+          "gpa": "0.5",
+          "year": "Sophomore",
+          "enroll": "2019",
+          "stat": "full-time",
+          "advisor": "Ostrich",
+          "grad": "2023"
+        }
+      }
+    ]
+  }
+}
