@@ -1,0 +1,55 @@
+:root{
+    white-space: pre-line;
+    display: inline;
+    content: "Students: ";
+    visibility: visible;
+    background-color:yellow;
+}
+student{
+    content: "Students:";
+    font-size: 16px;
+    font-family: "Segoe UI";
+    display:block;
+}
+student[format]:before{
+    font-style: oblique;
+    font-weight: bold;
+    font-size:40px;
+    color:blue;
+    content: attr(format) "\a ";
+}
+personalInfo{
+    content:attr(lname);
+    font-family: "Segoe UI";
+    font-size:32px;
+    color:blue;
+    position:center;
+}
+personalInfo[id]:before{
+    font-weight: bold;
+    content:attr(lname) "," attr(mname) "," attr(fname)
+            "\a " attr(email) "\a " attr(phone) "\a ___________________";
+}
+academicInfo[id]:before{
+    font-size:24px;
+    font-weight:normal;
+    content: "Advisor: " attr(advisor) "\a Major: " attr(major) "\a Minor: " attr(minor) "\a Status: " attr(status);
+}
+grades{
+    font-weight: normal;
+    font-family: "Segoe UI Black";
+    font-style: italic;
+}
+grades[id]:before{
+    font-size:24px;
+    font-weight: bold;
+    content: "Cumulative GPA: " attr(gpa) "\a ____________________"
+}
+data:before{
+    font-size:20px;
+    font-weight: normal;
+    content: attr(semester) " " attr(year) "\a GPA: " attr(gpa) "\a ____________________"
+}
+personalInfo:after{
+    content:"________________________________________"
+}

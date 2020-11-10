@@ -1,0 +1,43 @@
+<!-- AUTHOR: BRANDON SPADA <<< CS365  -->
+        <!-- There must be one or more personalInfo associated with the student. -->
+        <!ELEMENT student (personalInfo+)>
+        <!-- Attribute needs to be associated with student to indicate category of students -->
+        <!ATTLIST student
+                format (full|part|graduate|withdrawn) #REQUIRED>
+
+        <!-- 0 or more academic info can be associated with personal info. -->
+        <!ELEMENT personalInfo (creates)*>
+        <!-- ID used for association in css for no duplicates.  No grades stored here. -->
+        <!ATTLIST personalInfo
+                id ID #REQUIRED
+                lname CDATA #REQUIRED
+                fname CDATA #REQUIRED
+                mname CDATA #REQUIRED
+                prefname CDATA #IMPLIED
+                email CDATA #REQUIRED
+                phone CDATA #REQUIRED>
+
+        <!-- give time stamp to indicate when student was enrolled -->
+        <!ELEMENT creates (academicInfo+)>
+        <!ATTLIST creates initEnrollment CDATA #REQUIRED>
+
+        <!-- Info regarding academic info, gpa stored in other area for security reason. -->
+        <!ELEMENT academicInfo (grades)+>
+        <!ATTLIST academicInfo id ID #REQUIRED
+                advisor CDATA #REQUIRED
+                major CDATA #REQUIRED
+                minor CDATA #IMPLIED
+                expectedgrad CDATA #REQUIRED
+                status CDATA #REQUIRED
+                >
+        <!-- There is at least 1 grade associated with a student, the gpa.  After each semester, data is added. -->
+        <!ELEMENT grades (data)+>
+        <!ATTLIST grades
+                id ID #REQUIRED
+                gpa CDATA #REQUIRED
+                >
+        <!-- Data contains semester, year, and gpa associated.-->
+        <!ELEMENT data EMPTY>
+        <!ATTLIST data year CDATA #REQUIRED
+                semester CDATA #REQUIRED
+                gpa CDATA #REQUIRED>
