@@ -1,0 +1,38 @@
+<!-- Student list is list of all students -->
+<!ELEMENT student_list (student+)>
+
+
+<!-- Student contains all student information in the form of elements. -->
+<!ELEMENT student (name, contact+, year, gpa, degree+, status, advisor, enrollment_date, graduation_date)>
+  <!ATTLIST student id ID #REQUIRED> <!-- ID is required for each student as an attribute -->
+
+<!-- name element for full name -->
+<!ELEMENT name (first, middle*, last, preferred*)>
+  <!ELEMENT first (#PCDATA)>     <!-- REQ -->
+  <!ELEMENT middle (#PCDATA)>    <!-- OPT -->
+  <!ELEMENT last (#PCDATA)>      <!-- REQ -->
+  <!ELEMENT preferred (#PCDATA)> <!-- OPT -->
+
+<!-- put contact info together -->
+<!ELEMENT contact (email+, phone*)>
+  <!ELEMENT email (#PCDATA)> <!-- REQ, can be multiple -->
+  <!ELEMENT phone (#PCDATA)> <!-- OPT -->
+
+<!ELEMENT year (freshman|first|sophomore|second|junior|third|fourth|senior)> <!-- Different year nomenclatures -->
+
+<!-- Uses an attribute to show that I understand how to implement it -->
+<!ELEMENT gpa> <!-- GPA -->
+  <!ATTLIST gpa gpa_id CDATA #REQUIRED> <!-- gpa attribute -->
+
+<!-- degree combines major and minor for consolidation -->
+<!ELEMENT degree (major+, minor*)>
+  <!ELEMENT major (#PCDATA)> <-- REQ, can be multiple -->
+  <!ELEMENT minor (#PCDATA)> <-- OPT -->
+
+<!ELEMENT status (full-time|part-time|graduated|withdrawn)> <!-- student registration status -->
+
+<!ELEMENT advisor (#PCDATA)> <!-- Advisor name -->
+
+<!ELEMENT enrollment_date (#PCDATA)> <!-- Date of original enrollment -->
+
+<!ELEMENT graduation_date (#PCDATA)> !-- Graduation date, or expected -->

@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "name": {
+        "first": "Tyler",
+        "middle": "Joseph",
+        "last": "Reilly"
+      },
+      "student_id": "1",
+      "contact": {
+        "email": "treilly@hartford.edu",
+        "phone": "12312312312"
+      },
+      "status": "senior",
+      "gpa": "3.36",
+      "major": "computer science",
+      "minor": "math",
+      "registration_status": "full-time",
+      "advisor": "Ingrid Russell",
+      "enrollment_date": "2017",
+      "graduation_date": "2021"
+    },
+    {
+      "name": {
+        "first": "William",
+        "middle": "Silly",
+        "last": "Willy",
+        "preferred": "Billy"
+      },
+      "student_id": "2",
+      "contact": {
+        "email": "billysilly@hartford.edu",
+        "phone": "123123123"
+      },
+      "status": "freshman",
+      "gpa": "3.00",
+      "major": "civil engineering",
+      "registration_status": "part-time",
+      "advisor": "Who knows",
+      "enrollment_date": "2017",
+      "graduation_date": "2021"
+    }
+  ]
+}

@@ -39,16 +39,16 @@ Your student is comprised of the following:
 * Implement the JSON and XML independently, then compare, as one will likely be more logical than the other.
 
 ### XML Section
-* All your XML goes in `xml/index.xml`.
-* All your CSS goes in `xml/css/style.css`.
-* Your DTD goes in `xml/dtd/student.dtd`.
-* Comment every line of your DTD.
-* Author the DTD on your own; no help from WebStorm.
-* Style your XML using CSS so it’s easy to read in the browser.
-* Expose any XML attribute to the front end using CSS’s [`content`](https://developer.mozilla.org/en-US/docs/Web/CSS/content) property and [`attr()`](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) function.
+* All your XML goes in `xml/index.xml`. DONE
+* All your CSS goes in `xml/css/style.css`. DONE
+* Your DTD goes in `xml/dtd/student.dtd`. DONE
+* Comment every line of your DTD. DONE
+* Author the DTD on your own; no help from WebStorm. DONE
+* Style your XML using CSS so it’s easy to read in the browser. DONE
+* Expose any XML attribute to the front end using CSS’s [`content`](https://developer.mozilla.org/en-US/docs/Web/CSS/content) property and [`attr()`](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) function. DONE
 
 ### JSON
-* Validate your JSON directly in your editor and/or at [jslint.com](http://jslint.com/).
+* Validate your JSON directly in your editor and/or at [jslint.com](http://jslint.com/). JSON: good.
 
 ## ❖・Due・❖
 Sunday, 8 November 2020, at 10:00 PM.
@@ -56,11 +56,11 @@ Sunday, 8 November 2020, at 10:00 PM.
 ## ❖・Grading・❖
 | Item                     | Points |
 |--------------------------|:------:|
-| *XML Implementation*     | `20`   |
-| *DTD Implementation*     | `20`   |
-| *JSON Implementation*    | `20`   |
-| *Code Quality*           | `20`   |
-| *Following Instructions* | `20`   |
+| *XML Implementation*     | `20`   | DONE
+| *DTD Implementation*     | `20`   | DONE
+| *JSON Implementation*    | `20`   | DONE
+| *Code Quality*           | `20`   | FANTASTIC
+| *Following Instructions* | `20`   | OF COURSE
 
 **NO late submissions will be accepted.**
 
