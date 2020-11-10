@@ -1,0 +1,76 @@
+:root {
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+/* Main block */
+student {
+    display: block;
+    margin: 2%;
+    padding: 1%;
+    border: solid black 5px;
+}
+
+/* Set block display */
+name, email_addr, phone, gpa, major, minor, advisor, date_enrolled, date_graduation {
+    display: block;
+}
+/* Bold Labels */
+email_addr::before {
+    content: "E-mail: ";
+    font-weight: bold;
+}
+phone::before {
+    content: "Phone: ";
+    font-weight: bold;
+}
+gpa::before {
+    content: "GPA: ";
+    font-weight: bold;
+}
+major::before {
+    content: "Major: ";
+    font-weight: bold;
+}
+minor::before {
+    content: "Minor: ";
+    font-weight: bold;
+}
+advisor::before {
+    content: "Advisor: ";
+    font-weight: bold;
+}
+date_enrolled::before {
+    content: "Enrolled: ";
+    font-weight: bold;
+}
+date_graduation::before {
+    content: "Graduation: ";
+    font-weight: bold;
+}
+[fname]::before {
+    content: "Name: ";
+    font-weight: bold;
+}
+[id]::before {
+    content: "ID: " attr(id);
+    font-weight: bold;
+}
+/* Status */
+[year][status]::after {
+    content: attr(year) ", " attr(status);
+}
+
+/* Name tags */
+[fname][lname]::after {
+    content: attr(fname) " " attr(lname);
+}
+[fname][mname][lname]::after {
+    content: attr(fname) " " attr(mname) " " attr(lname);
+}
+[fname][lname][pref_name]::after {
+    content: attr(fname) " " attr(lname) " (" attr(pref_name) ")";
+}
+[fname][mname][lname][pref_name]::after {
+    content: attr(fname) " " attr(mname) " " attr(lname) " (" attr(pref_name) ")";
+}

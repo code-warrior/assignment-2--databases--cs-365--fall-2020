@@ -1,0 +1,35 @@
+{
+    "roster" : [
+        {
+            "id" : 1,
+            "fname" : "Ed",
+            "lname" : "Bob",
+            "pref_name" : "Eddy",
+            "email" : "ebob@hartford.edu",
+            "phone" : "555-555-5555",
+            "gpa" : 4.0,
+            "major" : "Computer Science",
+            "minor" : "Math",
+            "advisor" : "Roy Vanegas",
+            "enrolled" : "Sept 2017",
+            "graduation" : "May 2021",
+            "year" : "Senior",
+            "status" : "full-time"
+        },
+        {
+            "id" : 2,
+            "fname" : "Ed",
+            "mname" : "Jeff",
+            "lname" : "Bob",
+            "email" : "ebob2@hartford.edu",
+            "gpa" : 3.5,
+            "major" : "Math",
+            "minor" : "Computer Science",
+            "advisor" : "Roy Vanegas",
+            "enrolled" : "Sept 2017",
+            "graduation" : "May 2025",
+            "year" : "Sophomore",
+            "status" : "part-time"
+        }
+    ]
+}
