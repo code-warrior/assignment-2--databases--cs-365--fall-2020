@@ -1,0 +1,26 @@
+<!ELEMENT university_students (student+)> <!--This is the root element, it will have an element student as it's child, the plus sign indicates that there should be at least one student-->
+
+<!ELEMENT student (name, contact_info, academic_record)> <!--student has 3 elements (children) and they are all required to be present-->
+  <!ATTLIST student id ID #REQUIRED <!--student element has an attribute id which is of ID type and it's required-->
+
+<!ELEMENT name (first, middle?, last, preferred?)> <!--name has 4 elements (children), first and last are required, but middle and preferred are optional-->
+
+<!ELEMENT contact_info (email+, phone+)> <!--contact info has 2 elements (children), both are required (at least one time)-->
+
+<!ELEMENT academic_record (year, gpa, major+, minor*, status, advisor, enrollment_date, graduation_date)> <!--academic_record has 8 elements (children), all elements but minor are required, minor is optional, also major can be repeated more than once (a student can have more than one major)-->
+
+<!ELEMENT first (#PCDATA)> <!--first name element, parsed character data type-->
+<!ELEMENT last (#PCDATA)> <!--last name element, parsed character data type-->
+<!ELEMENT middle (#PCDATA)> <!--middle name element, parsed character data type-->
+<!ELEMENT preferred (#PCDATA)> <!--preferred name element, parsed character data type-->
+<!ELEMENT email (#PCDATA)> <!--email element, parsed character data type-->
+<!ELEMENT phone (#PCDATA)> <!-- phone element, parsed character data type-->
+<!ELEMENT year (#PCDATA)> <!-- year element, parsed character data type-->
+<!ELEMENT gpa (#PCDATA)> <!-- gpa element, parsed character data type-->
+<!ELEMENT major (#PCDATA)> <!-- major element, parsed character data type-->
+<!ELEMENT minor (#PCDATA)> <!-- minor element, parsed character data type-->
+<!ELEMENT status (#PCDATA)> <!-- status element, parsed character data type-->
+<!ELEMENT advisor (#PCDATA)> <!-- advisor element, parsed character data type-->
+<!ELEMENT enrollment_date (#PCDATA)> <!-- enrollment_date element, parsed character data type-->
+<!ELEMENT graduation_date (#PCDATA)> <!-- graduation_date element, parsed character data type-->
+

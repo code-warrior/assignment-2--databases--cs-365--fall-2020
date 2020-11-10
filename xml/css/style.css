@@ -1,0 +1,93 @@
+university_students{
+  font-size:30px;
+  background-color: #dcdcdc;
+}
+
+student{
+  text-align:center;
+  display: block;
+  margin: 100px;
+  color: #0074D9;
+}
+
+name{
+  color: #8B008B;
+  margin: 100px;
+}
+
+contact_info{
+  color: #2748a2;
+  margin: 100px;
+}
+
+academic_record{
+  color: #24c8a2;
+  margin: 100px;
+}
+
+first, last, middle, preferred, email, phone, year, gpa, major, minor, status, advisor, enrollment_date, graduation_date {
+  display: block;
+  text-align: left;
+}
+
+student::before{
+  font-weight:bolder;
+  font-size:36px;
+  content: "Student ID: " attr(id);
+}
+
+first::before{
+  content: "First name: ";
+}
+
+last::before{
+  content: "Last name: ";
+}
+
+middle::before{
+  content: "Middle name: ";
+}
+
+preferred::before{
+  content: "Preferred name: ";
+}
+
+email::before{
+  content: "Email: ";
+}
+
+phone::before{
+  content: "Phone number: ";
+}
+
+year::before{
+  content: "Year (first year, second year, etc): ";
+}
+
+gpa::before{
+  content: "GPA: ";
+}
+
+major::before{
+  content: "Major: ";
+}
+
+minor::before{
+  content: "Minor: ";
+}
+
+status::before{
+  content: "Status (full-time, part-time, graduated, withdrawn): ";
+}
+
+advisor::before{
+  content: "Advisor name: ";
+}
+
+enrollment_date::before{
+  content: "Date of initial enrollment: ";
+}
+
+graduation_date::before{
+  content: "Graduation date: ";
+}
