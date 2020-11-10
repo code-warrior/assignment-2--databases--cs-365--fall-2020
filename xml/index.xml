@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE student_list SYSTEM "dtd/student.dtd">
+
+<?xml-stylesheet href="css/style.css"?>
+
+<student_list>
+    <student id="id_0001">
+        <name>
+            <first>John</first>
+            <middle>Jeremy</middle>
+            <last>Jones</last>
+            <preferred>Johnny</preferred>
+        </name>
+        <contact>
+            <email>JJones1@uhart.edu</email>
+            <phone>860-334-9909</phone>
+        </contact>
+        <gpa>3.9</gpa>
+        <major>MWD</major>
+        <year>third</year>
+        <status>full-time</status>
+        <advisor>Timothy Becker</advisor>
+        <enrollment>2018</enrollment>
+        <graduation>2222</graduation>
+    </student>
+    <student id="id_0002">
+        <name>
+            <first>John</first>
+            <middle>Jeremy</middle>
+            <last>Jones</last>
+            <preferred>JJ</preferred>
+        </name>
+        <contact>
+            <email>JJones@uhart.edu</email>
+            <phone>860-555-3452</phone>
+        </contact>
+        <gpa>3.4</gpa>
+        <major>English</major>
+        <minor>business</minor>
+        <year>senior</year>
+        <status>full-time</status>
+        <advisor>Donald Jones</advisor>
+        <enrollment>2017</enrollment>
+        <graduation>2221</graduation>
+    </student>
+    <student id="id_0003">
+        <name>
+            <first>Zachary</first>
+            <last>Shoemaker</last>
+            <preferred>Zack</preferred>
+        </name>
+        <contact>
+            <email>ZShoemaker@uhart.edu</email>
+            <phone>860-123-4568</phone>
+            <phone>917-873-9563</phone>
+        </contact>
+        <gpa>3.6</gpa>
+        <major>Computer Science</major>
+        <major>Engineering</major>
+        <minor>Math</minor>
+        <year>second</year>
+        <status>full-time</status>
+        <advisor>Ingrid Russel</advisor>
+        <enrollment>2019</enrollment>
+        <graduation>2223</graduation>
+    </student>
+</student_list>
