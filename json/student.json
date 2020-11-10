@@ -1,0 +1,57 @@
+[
+{
+ "name": "John Stacy",
+ "id": "11111111",
+
+ "name-info": {
+  "first-name": "John",
+  "middle-name": "Marshall",
+  "last-name": "Stacy",
+  "preferred-name": "\"John\""
+},
+
+ "contact-info": {
+  "email": "Stacy@hartford.edu",
+  "phone": "888-888-8888"
+},
+
+ "education-status": {
+  "student-id": "11111111",
+  "major": "Journalism",
+  "minor": "N/A",
+  "status": "Second-year",
+  "GPA": "3.6",
+  "advisor": "Nicholas O'Brien",
+  "enrollment-date": "8/31/2019",
+  "projected-graduation-date": "May 2023"
+}
+},
+
+{
+"@name": "John Stacy",
+"@id": "22222222",
+
+ "name-info": {
+  "first-name": "John",
+  "middle-name": "Tyler",
+  "last-name": "Stacy",
+  "preferred-name": "\"Johnny\""
+},
+
+ "contact-info": {
+  "email": "JStacy@hartford.edu",
+  "phone": "474-747-4747"
+},
+
+"education-status": {
+  "student-id": "22222222",
+  "major": "Financial Advisor",
+  "minor": "Multimedia Web Design",
+  "status": "Fifth-year",
+  "GPA": "3.4",
+  "advisor": "Jarrod Correll",
+  "enrollment-date": "8/31/2016",
+  "projected-graduation-date": "May 2021"
+}
+}
+]
