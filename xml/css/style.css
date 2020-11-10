@@ -1,0 +1,48 @@
+:root {
+  background-color: rgb(240, 240, 240);
+}
+
+student{
+  font-size:16px;
+  color: black;
+  diplay:block;
+}
+ID{
+  font-size:24px;
+  display:block;
+}
+name{
+  font-size:20px;
+  color:black;
+  display:block;
+}
+
+pref{
+  font-size:18px;
+  color:black;
+  display:block;
+}
+
+year{
+  font-size:18px;
+  color:black;
+  display:block;
+}
+
+major,minor,gpa{
+  font-size:18px;
+  color:black;
+  display:inline;
+}
+
+status{
+  display:block;
+}
+
+advisor{
+  display:block;
+}
+
+enrollment_date,graduation_date{
+  display:inline;
+}

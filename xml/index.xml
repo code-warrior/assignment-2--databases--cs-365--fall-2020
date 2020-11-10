@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE directory SYSTEM "dtd/student.dtd">
+
+<?xml-stylesheet href="css/style.css"?>
+
+<directory>
+  <student>
+    <has>
+      <ID>11746360</ID>
+      <name>
+        <first>Charlie</first>
+        <middle>Maximus</middle>
+        <last>Simpson</last>
+        <pref>Max</pref>
+      </name>
+      <contact_info>
+        <email>simp@uni.edu</email>
+        <phone>233-334-5456</phone>
+      </contact_info>
+      <enrollment_info>
+        <year>first-year</year>
+        <major>Philosophy</major>
+        <minor>Economics</minor>
+        <gpa>3.4</gpa>
+        <status>full-time</status>
+        <advisor>Dr. Mark Roffula</advisor>
+        <enroll_date>2016-22-09</enroll_date>
+        <graduation_date>2020-09-05</graduation_date>
+      </enrollment_info>
+    </has>
+  </student>
+
+  <student>
+    <has>
+      <ID>10933933</ID>
+      <name>
+        <first>Charlie</first>
+        <middle>Rose</middle>
+        <last>Simpson</last>
+        <pref>Charlie</pref>
+      </name>
+      <contact_info>
+        <email>charlies@uni.edu</email>
+        <phone>043-332-9993</phone>
+      </contact_info>
+      <enrollment_info>
+        <year>fourth-year</year>
+        <major>Biology</major>
+        <minor>Mathematics</minor>
+        <gpa>3.2</gpa>
+        <status>full-time</status>
+        <advisor>Dr. Gnu Nguyen</advisor>
+        <enroll_date>2012-14-09</enroll_date>
+        <graduation_date>2016-12-05</graduation_date>
+      </enrollment_info>
+    </has>
+  </student>
+</directory>

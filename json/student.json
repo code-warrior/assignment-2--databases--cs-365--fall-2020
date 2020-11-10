@@ -1,0 +1,40 @@
+{"students":[
+  {
+  "student_id:": "11746360",
+  "name": {
+    "first": "Charlie",
+    "middle": "Maximus",
+    "last": "Simpson",
+    "pref": "Max"
+  },
+  "email": "simp@uni.edu",
+  "phone": "223-334-5456",
+  "year": "first-year",
+  "gpa": 3.4,
+  "major": "Philosophy",
+  "minor": "Economics",
+  "status": "full-time",
+  "advisor": "Dr. Mark Roffula",
+  "enroll_date": "2016-22-09",
+  "graduation_date": "2020-09-05"
+},
+{
+  "student_id:": "10933933",
+  "name": {
+    "first": "Charlie",
+    "middle": "Rose",
+    "last": "Simpson",
+    "pref": "Charlie"
+  },
+  "email": "charlies@uni.edu",
+  "phone": "043-332-9993",
+  "year": "fourth-year",
+  "gpa": 3.2,
+  "major": "Biology",
+  "minor": "Mathematics",
+  "status": "full-time",
+  "advisor": "Dr. Gan Nguyen",
+  "enroll_date": "2012-14-09",
+  "graduation_date": "2016-12-05"
+}
+]}
