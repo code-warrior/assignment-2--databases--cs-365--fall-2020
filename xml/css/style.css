@@ -1,0 +1,57 @@
+heading {
+    color: black;
+    background-color: maroon;
+    font-size: 40px;
+    font-family: "Baskerville Old Face";
+    font-weight: bold;
+}
+student_directory:before{
+    content: attr(format);
+    font-size: 30px;
+    background-color: black;
+    color: maroon;
+    font-family: "Baskerville Old Face";
+}
+student_directory{
+    background-color: black;
+    color: maroon;
+    font-family: "Baskerville Old Face";
+    font-size: 30px;
+}
+student:before{
+    content: attr(first_name)" "attr(last_name);
+    font-family: "Baskerville Old Face";
+    font-weight: bold;
+}
+
+student:after{
+    font-size: 20px;
+    content: "("attr(pref_name)
+    ") \A       ID: "attr(id)
+    " \A       Email: "attr(email)
+    " \A       Phone Number: "attr(phone)
+    " \A       Class Year: "attr(year)
+    " \A       GPA: "attr(gpa)
+    " \A       Major: "attr(major)
+    " \A       Minor: "attr(minor)
+    " \A       Status: "attr(status)
+    " \A       Advisor: "attr(advisor)
+    " \A       Inital Enrollment: "attr(init_enroll)
+    " \A       Graduation Date: "attr(grad_date);
+    white-space: pre;
+}
+
+heading{
+    display: block;
+}
+student_directory{
+    display: block;
+}
+student {
+    display: grid;
+    columns: fill-available;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid maroon;
+}
+

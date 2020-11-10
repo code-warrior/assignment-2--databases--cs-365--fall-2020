@@ -1,0 +1,38 @@
+<!-- Defines the elements with in the student directory -->
+<!ELEMENT student_directory (heading|student)*>
+    <!-- lists the attributed in the student directory,
+    it is required and must be one of the provided options -->
+    <!ATTLIST student_directory
+        format (Under-Graduate|Graduate|Alumni) #REQUIRED>
+
+    <!-- specified the heading element in, it is not required -->
+    <!ELEMENT heading (#PCDATA)>
+
+    <!-- Specified the student element -->
+    <!ELEMENT student (#PCDATA)>
+    <!-- Specified the attributes under student, all are required fields -->
+    <!ATTLIST student id stu_id #REQUIRED
+        first_name CDATA #REQUIRED
+        last_name CDATA #REQUIRED
+        pref_name CDATA #REQUIRED
+        email CDATA #REQUIRED
+        phone CDATA #REQUIRED
+        year CDATA #REQUIRED
+        gpa CDATA #REQUIRED
+        major CDATA #REQUIRED
+        minor CDATA #REQUIRED
+        status CDATA #REQUIRED
+        advisor CDATA #REQUIRED
+        init_enroll CDATA #REQUIRED
+        grad_date CDATA #REQUIRED>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE student_directory SYSTEM "dtd/student.dtd">
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+
+<student_directory format="Under-Graduate">
+    <heading>Student Directory</heading>
+    <student id="18693748"
+             first_name = "Dean"
+             last_name = "Winchester"
+             pref_name = "Squirrel"
+             email = "dwinchester@hartford.edu"
+             phone = "(123)867-5309"
+             year = "Freshman"
+             gpa = "2.8"
+             major = "Monster Hunting"
+             minor = "Classic Car Repair"
+             status = "part-time"
+             advisor = "Bobby Singer"
+             init_enroll = "Sep 2020"
+             grad_date = "May 2024"/>
+
+    <student id="53783759"
+             first_name = "Sam"
+             last_name = "Winchester"
+             pref_name = "Moose"
+             email = "samwinchester@hartford.edu"
+             phone = "(123)674-2324"
+             year = "Freshman"
+             gpa = "3.7"
+             major = "Monster Hunting"
+             minor = "Historical Literature"
+             status = "full-time"
+             advisor = "Bobby Singer"
+             init_enroll = "Sep 2020"
+             grad_date = "May 2024"/>
+
+    <student id="66616661"
+             first_name = "Sam"
+             last_name = "Winchester"
+             pref_name = "Lucifer"
+             email = "luci@hartford.edu"
+             phone = "(666)532-2643"
+             year = "Junior"
+             gpa = "4.0"
+             major = "Falling From Grace"
+             minor = "Demon Creation"
+             status = "full-time"
+             advisor = "God"
+             init_enroll = "Sep 2018"
+             grad_date = "May 2022"/>
+
+    <student id="53666903"
+             first_name = "Fergus"
+             last_name = "MacLeod"
+             pref_name = "Crowley"
+             email = "kingofhell@hartford.edu"
+             phone = "(666)666-6666"
+             year = "Sophomore"
+             gpa = "3.666"
+             major = "Demonic Deal Making"
+             minor = "Business Management"
+             status = "full-time"
+             advisor = "The Darkness"
+             init_enroll = "Sep 2020"
+             grad_date = "May 2024"/>
+
+    <student id="33313331"
+             first_name = "Jimmy"
+             last_name = "Novak"
+             pref_name = "Castiel"
+             email = "castiel@hartford.edu"
+             phone = "(333)643-8942"
+             year = "Sophomore"
+             gpa = "3.1"
+             major = "Angelic Duty"
+             minor = "Winchester Babysitting"
+             status = "full-time"
+             advisor = "Micheal"
+             init_enroll = "Sep 2019"
+             grad_date = "May 2023"/>
+</student_directory>
