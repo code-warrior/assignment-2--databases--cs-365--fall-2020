@@ -1,0 +1,46 @@
+student_lookup{
+    content: attr(format);
+    font-size: 20px;
+}
+
+heading{
+    color: white;
+    font-size: 40px;
+    background-color: gray;
+    text-align: center;
+}
+
+student:before{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    content: attr(Student_firstname) " " attr(Student_lastname);
+}
+student:after{
+    font-size:20px;
+    content: "\A""Student ID: " attr(Student_ID) "\A"
+    "Student's Perfered Name: " attr(Student_prefname) "\A"
+    "School Email: " attr(Student_email) "\A"
+    "Contact Number: " attr(Student_phone) "\A"
+    "Year: " attr(Student_status) "\A"
+    "GPA: " attr(Student_GPA) "\A"
+    "Major: " attr(Student_Major) "\A"
+    "Minor: " attr(Student_Minor) "\A"
+    "Status: " attr(Student_Status) "\A"
+    "Advisor: " attr(Student_Advisor) "\A"
+    "Enrollment Date: " attr(Student_Enrollment) "\A"
+    "Graduation Date: " attr(Student_Graduation) "\A \A";
+    white-space: pre;
+}
+
+student{
+    display: table;
+    background-color: white;
+    color: gray;
+}
+
+heading{
+    display: block;
+}
+

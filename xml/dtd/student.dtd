@@ -1,0 +1,23 @@
+<!ELEMENT student_lookup (heading|student)*> <!--Format of database-->
+    <!ATTLIST student_lookup <!--Container of attributes for the student lookup database-->
+        format CDATA #REQUIRED> <!--Formatting for CDATA which is text that will not be parsed by a parser-->
+    <!ELEMENT heading (#PCDATA)> <!--Defining the header element for the web page-->
+
+    <!ELEMENT student (#PCDATA)> <!--Defining the student element within the database-->
+    <!ATTLIST student <!--Container of attributes for the student element-->
+        Student_ID id #REQUIRED <!--Attribute that is required when entering a new student into the database-->
+        Student_firstname CDATA #REQUIRED <!--First name attribute that is required when entering a new student into the database-->
+        Student_lastname CDATA #REQUIRED <!--Last name attribute that is required when entering a new student into the database-->
+        Student_prefname CDATA #REQUIRED <!--Student perfered name attribute that is required when entering a new student into the database-->
+        Student_email CDATA #REQUIRED <!--Student email attribute that is required when entering a new student into the database-->
+        Student_phone CDATA #REQUIRED <!--Student phone number attribute that is required when entering a new student into the database-->
+        Student_status CDATA #REQUIRED <!--Students grade attribute that is required when entering a new student into the database-->
+        Student_GPA CDATA #REQUIRED <!--Students accumulative GPA attribute that is required when entering a new student into the database-->
+        Student_Major CDATA #REQUIRED <!--Student major attribute that is required when entering a new student into the database-->
+        Student_Minor CDATA #REQUIRED <!--Student minor attribute that is required when entering a new student into the database-->
+        Student_Status CDATA #REQUIRED <!--Student graduation status attribute that is required when entering a new student into the database-->
+        Student_Advisor CDATA #REQUIRED <!--Advisor name attribute that is required when entering a new student into the database-->
+        Student_Enrollment CDATA #REQUIRED <!--Student enrollment date attribute that is required when entering a new student into the database-->
+        Student_Graduation CDATA #REQUIRED> <!--Student graduation date attribute that is required when entering a new student into the database-->
+
+
