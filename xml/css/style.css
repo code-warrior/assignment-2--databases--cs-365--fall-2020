@@ -1,0 +1,113 @@
+
+College_Directory:before {
+    display: block;
+    font-weight: bold;
+    font-size: 300%;
+    content: "College Directory";
+
+}
+College_Directory {
+    display: block;
+    background-color: deepskyblue;
+}
+
+student{
+    display: block;
+    margin-bottom: 1em;
+}
+
+first_name {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+
+middle_name {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+last_name {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+
+preferred_name {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+student_id {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+email {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+phone {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+year {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+
+gpa {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+major {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+
+minor {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+student_status {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+ }
+
+advisor {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+date_of_initial_enrollment {
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
+graduation_date{
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    background-color: khaki;
+}
