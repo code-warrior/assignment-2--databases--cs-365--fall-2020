@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE student-information SYSTEM "dtd/music.dtd">
+<?xml-stylesheet href="css/style.css"?>
+<student-information>
+  <student name = "John Stacy" id="11111111">
+   <name-info>
+    <first-name> John </first-name>
+	<middle-name> Marshall </middle-name>
+    <last-name> Stacy </last-name>
+    <preferred-name> "John" </preferred-name>
+   </name-info>
+   <contact-info>
+    <email> Stacy@hartford.edu </email>
+    <phone> 888-888-8888 </phone>
+   </contact-info>
+   <education-status>
+    <student-id> 11111111 </student-id>
+    <major> Journalism </major>
+    <minor> N/A </minor>
+    <status> Second-year </status>
+    <GPA> 3.6 </GPA>
+    <advisor> Nicholas O'Brien </advisor>
+    <enrollment-date> 8/31/2019 </enrollment-date>
+    <projected-graduation-date> May 2023 </projected-graduation-date>
+   </education-status>
+  </student>
+  
+  <student name = "John Stacy" id="22222222">
+   <name-info>
+    <first-name> John </first-name>
+	<middle-name> Tyler </middle-name>
+    <last-name> Stacy </last-name>
+    <preferred-name> "Johnny" </preferred-name>
+   </name-info>
+   <contact-info>
+    <email> JStacy@hartford.edu </email>
+    <phone> 474-747-4747 </phone>
+   </contact-info>
+   <education-status>
+    <student-id> 22222222 </student-id>
+    <major> Financial Advisor </major>
+    <minor> Multimedia Web Design </minor>
+    <status> Fifth-year </status>
+    <GPA> 3.4 </GPA>
+    <advisor> Jarrod Correll </advisor>
+    <enrollment-date> 8/31/2016 </enrollment-date>
+    <projected-graduation-date> May 2021 </projected-graduation-date>
+   </education-status>
+  </student>
+</student-information>
+	
+		

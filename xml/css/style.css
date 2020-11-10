@@ -1,0 +1,39 @@
+:root {
+	font-family: verdana;
+	margin: 0.5em;
+	display: block;
+}
+student:before {
+  content: " (" attr(name) ")";
+  /* content: " (" attr(student-id) ")"; couldnt get this one to work, not that important since ID info is displayed later*/ 
+}
+
+student {
+	display: block; 
+	border: 1px solid black;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: AliceBlue;
+}
+name-info{
+	display: block;
+	border: 1px solid black;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: beige;
+}
+contact-info{
+	display: block;
+}
+education-status{
+	display: block;
+}
+preferred-name, email, phone, student-id, status, advisor{
+	display: block;
+}
+GPA{
+	color: red;
+}
+email,phone {
+	color: green;
+}

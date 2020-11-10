@@ -1,0 +1,27 @@
+<!ELEMENT first-name(#PCDATA)> <!--Student Name info. will contain character data and only character data.-->
+<!ELEMENT last-name (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT middle-name (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT preferred-name (#PCDATA)> <!--will contain character data and only character data. --> 
+<!ELEMENT name-info (first-name, last-name, middle-name, preferred-name)> <!--congregating all student name info into one element tag -->
+
+<!ELEMENT email (#PCDATA)> <!--Student contact info. will contain character data and only character data. -->
+<!ELEMENT phone (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT contact-info (email, phone)> <!--congregating all student contact info into one element tag  -->
+
+<!ELEMENT student-id (#PCDATA)> <!-- Student education info. will contain character data and only character data. -->
+<!ELEMENT major (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT minor (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT status (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT GPA (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT advisor (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT enrollment-date (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT projected-graduation-date (#PCDATA)> <!--will contain character data and only character data. -->
+<!ELEMENT education-status (student-id, major, minor, status, GPA, advisor, enrollment-date, projected-graduation-date)> <!--congregating all student education info into one element tag  -->
+
+<!ELEMENT student (name-info,contact-info,education-status)> <!--combining the 3 groups into one student element -->
+
+<!ELEMENT student-information (student+)> <!--root element to contain multiple student elements-->
+ <!ATTLIST student-information 
+  name CDATA #REQUIRED
+  student-id ID #REQUIRED>
+  <!-- assigning 2 required attributes to the student element name, containing character data, and student ID, containing an ID type to distinguish the students.-->
