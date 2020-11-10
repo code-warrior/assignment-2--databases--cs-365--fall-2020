@@ -1,0 +1,77 @@
+<!--Element for all of the students in the university-->
+<!--university contains one or more students-->
+<!ELEMENT university_students (student+)>
+
+<!--Element for each student entry, contains one or more "has" element-->
+<!ELEMENT student (has+)>
+    <!--attribute list that requires the ID of student-->
+    <!ATTLIST student id ID #REQUIRED>
+
+<!--Element for "has" that contains one or more element "info"-->
+<!ELEMENT has (info)+>
+
+<!--Element for info, contains one or more "contains" element-->
+<!ELEMENT info (contains+)>
+    <!--attribute list that requires the ID of info-->
+    <!ATTLIST info id ID #REQUIRED>
+
+<!--Element for contains, contains "personalInfo" and "academicInfo" elements-->
+<!ELEMENT contains (personalInfo, academicInfo)+>
+
+<!--Element for personal information, contains one or more of each "firstName", "middleName", "lastName", "prefName", and "phone" elements-->
+<!ELEMENT personalInfo (firstName, middleName, lastName, prefName, phone)+>
+    <!--attribute list that requires the ID of personalInfo-->
+    <!ATTLIST personalInfo id ID #REQUIRED>
+
+<!--Element for the student's first name, made up of characters-->
+<!ELEMENT firstName (#PCDATA)>
+
+<!--Element for the student's middle name, made up of characters-->
+<!ELEMENT middleName (#PCDATA)>
+
+<!--Element for the student's last name, made up of characters-->
+<!ELEMENT lastName (#PCDATA)>
+
+<!--Element for the student's preferred name, made up of characters-->
+<!ELEMENT prefName (#PCDATA)>
+
+<!--Element for the student's phone number, made up of characters-->
+<!ELEMENT phone (#PCDATA)>
+
+<!--Element for academic information, contains one or more of each "studentID", "email", "year", "gpa", "major", "minor", "status", "advisor", "initEnroll", "gradDate" elements-->
+<!ELEMENT academicInfo (studentID, email, year, gpa, major, minor, status, advisor, initEnroll, gradDate)+>
+    <!--attribute list that requires the ID of academicInfo-->
+    <!ATTLIST academicInfo id ID #REQUIRED>
+
+<!--Element of the student's ID, made up of characters-->
+<!ELEMENT studentID (#PCDATA)>
+
+<!--Element of the student's email address, made up of characters-->
+<!ELEMENT email (#PCDATA)>
+
+<!--Element of the student's year, made up of characters-->
+<!ELEMENT year (#PCDATA)>
+
+<!--Element of the student's grade point average, made up of characters-->
+<!ELEMENT gpa (#PCDATA)>
+
+<!--Element of the student's major, made up of characters-->
+<!ELEMENT major (#PCDATA)>
+
+<!--Element of the student's minor, made up of characters-->
+<!ELEMENT minor  (#PCDATA)>
+
+<!--Element of the student's status, made up of characters-->
+<!ELEMENT status (#PCDATA)>
+
+<!--Element of the student's advisor, made up of characters-->
+<!ELEMENT advisor (#PCDATA)>
+
+<!--Element of the student's date of initial enrollment, made up of characters-->
+<!ELEMENT initEnroll (#PCDATA)>
+
+<!--Element of the student's graduation date, made up of characters-->
+<!ELEMENT gradDate (#PCDATA)>
+
+
+

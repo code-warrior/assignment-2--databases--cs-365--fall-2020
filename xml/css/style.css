@@ -1,0 +1,100 @@
+university_students{
+    font-size: 80%;
+    margin: 0.5em;
+    font-family: Arial;
+    display: block;
+}
+
+student:before{
+    display: block;
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: aqua;
+    content: "Student Number: "attr(id);
+}
+student{
+    display: block;
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: aqua;
+ }
+personalInfo, firstName, middleName, lastName, prefName, phone, academicInfo, studentID, email, year, gpa, major, minor, status, advisor, initEnroll, gradDate{
+    display: block;
+}
+
+personalInfo::before{
+    display: block;
+    padding-bottom: 0.5em;
+    content: "Personal Information:";
+    text-decoration: underline;
+}
+
+firstName:before{
+    content: "First Name: "attr(firstName);
+}
+
+middleName::before{
+    content: "Middle Name: "attr(middleName);
+}
+
+lastName::before{
+    content: "Last Name: "attr(lastName);
+}
+
+prefName::before{
+    content: "Preferred Name: "attr(prefName);
+}
+
+phone::before{
+    content: "Phone: "attr(phone);
+}
+
+academicInfo::before{
+    display: block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    content: "Academic Information: ";
+    text-decoration: underline;
+}
+
+studentID::before{
+    content: "Student ID: "attr(studentID);
+}
+
+email::before{
+    content: "E-mail: "attr(email);
+}
+
+year::before{
+    content: "Year: "attr(year);
+}
+
+gpa::before{
+    content: "GPA: "attr(gpa);
+}
+
+major::before{
+    content: "Major: "attr(major);
+}
+
+minor::before{
+    content: "Minor: "attr(minor);
+}
+
+status::before{
+    content: "Status: "attr(status);
+}
+
+advisor::before{
+    content: "Advisor: "attr(advisor);
+}
+
+initEnroll::before{
+    content: "Date of Intitial Enrollment: "attr(initEnroll);
+}
+
+gradDate::before{
+    content: "Graduation Date: "attr(gradDate);
+}

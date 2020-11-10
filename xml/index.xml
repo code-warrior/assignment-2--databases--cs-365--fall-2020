@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE university_students SYSTEM "dtd/student.dtd">
+<?xml-stylesheet href="css/style.css"?>
+
+<university_students>
+    <student id="stu_1">
+        <has>
+            <info id="info_1">
+                <contains>
+                    <personalInfo id="pers_info_1">
+                        <firstName>Steven</firstName>
+                        <middleName>Grant</middleName>
+                        <lastName>Rogers</lastName>
+                        <prefName>Steve</prefName>
+                        <phone>(123)456-7890</phone>
+                    </personalInfo>
+                    <academicInfo id="acad_info_1">
+                        <studentID>123456</studentID>
+                        <email>srogers@marvel.com</email>
+                        <year>fourth year</year>
+                        <gpa>4.0</gpa>
+                        <major>physical therapy</major>
+                        <minor>n/a</minor>
+                        <status>full-time</status>
+                        <advisor>Howard Stark</advisor>
+                        <initEnroll>2016</initEnroll>
+                        <gradDate>2020</gradDate>
+                    </academicInfo>
+                </contains>
+            </info>
+        </has>
+    </student>
+    <student id="stu_2">
+        <has>
+            <info id="info_2">
+                <contains>
+                    <personalInfo id="pers_info_2">
+                        <firstName>Steven</firstName>
+                        <middleName>Frank</middleName>
+                        <lastName>Rogers</lastName>
+                        <prefName>Steven</prefName>
+                        <phone>(987)654-3210</phone>
+                    </personalInfo>
+                    <academicInfo id="acad_info_2">
+                        <studentID>112233</studentID>
+                        <email>strogers@marvel.com</email>
+                        <year>first year</year>
+                        <gpa>3.6</gpa>
+                        <major>accounting</major>
+                        <minor>business</minor>
+                        <status>full-time</status>
+                        <advisor>Phil Coulson</advisor>
+                        <initEnroll>2019</initEnroll>
+                        <gradDate>2023</gradDate>
+                    </academicInfo>
+                </contains>
+            </info>
+        </has>
+    </student>
+</university_students>

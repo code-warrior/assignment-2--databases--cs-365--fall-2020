@@ -1,0 +1,49 @@
+{
+  "st_1": [{
+    "info": [{
+      "personalInfo": [{
+        "firstName": "Steven",
+        "middleName": "Grant",
+        "lastName": "Rogers",
+        "preferredName": "Steve",
+        "phone": 1234567890,
+      }],
+      "academicInfo": [{
+        "studentID": 123456,
+        "email": "srogers@marvel.com",
+        "year": "fourth year",
+        "GPA": 4.0,
+        "major": "physical therapy",
+        "minor": "n/a",
+        "status": "full-time",
+        "advisor": "Howard Stark",
+        "initEnroll": 2016,
+        "gradDate": 2020
+      }]
+    }]
+  }],
+  "st_2": [{
+    "info": [{
+      "personalInfo": [{
+        "firstName": "Steven",
+        "middleName": "Frank",
+        "lastName": "Rogers",
+        "preferredName": "Steven",
+        "phone": 9876543210,
+      }],
+      "academicInfo": [{
+        "studentID": 112233,
+        "email": "strogers@marvel.com",
+        "year": "first year",
+        "GPA": 3.6,
+        "major": "accounting",
+        "minor": "business",
+        "status": "full-time",
+        "advisor": "Phil Coulson",
+        "initEnroll": 2019,
+        "gradDate": 2023
+      }]
+    }]
+
+  }]
+}
