@@ -1,0 +1,55 @@
+<!-- Top level element for the student database. -->
+<!ELEMENT student_database (student)*>
+<!-- Student element with student_id attribute. -->
+<!ELEMENT student (has)*>
+<!ATTLIST student
+        student_id CDATA #REQUIRED>
+<!-- Core 'has' verb for containers. -->
+<!ELEMENT has (name|contact|email_address|phone_number|program|status|gpa|major
+    |minor|advisor|enrollment_date|graduation_date)*>
+<!-- Name element with first, middle, last, and preferred name attributes. -->
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+        first_name CDATA #REQUIRED
+        middle_name CDATA #REQUIRED
+        last_name CDATA #REQUIRED
+        preferred_name CDATA #REQUIRED>
+<!-- Contact container element with 'has' verb. -->
+<!ELEMENT contact (has)*>
+<!-- Email address element -->
+<!ELEMENT email_address (#PCDATA)>
+<!-- Phone number element -->
+<!ELEMENT phone_number (#PCDATA)>
+<!-- Program container element with 'has' verb. -->
+<!ELEMENT program (has)*>
+<!-- Status element with type and year attributes. -->
+<!ELEMENT status (#PCDATA)>
+<!ATTLIST status
+        type CDATA #IMPLIED
+        year CDATA #IMPLIED>
+<!-- GPA element with score and scale attributes. -->
+<!ELEMENT gpa (#PCDATA)>
+<!ATTLIST gpa
+        score CDATA #REQUIRED
+        scale CDATA #REQUIRED>
+<!-- Major element with program and type attributes. -->
+<!ELEMENT major (#PCDATA)>
+<!ATTLIST major
+        program CDATA #REQUIRED
+        type CDATA #REQUIRED>
+<!-- *OPTIONAL* Minor element with program attribute. -->
+<!ELEMENT minor (#PCDATA)>
+<!ATTLIST minor
+        program CDATA #IMPLIED>
+<!-- Advisor element with name attribute. -->
+<!ELEMENT advisor (#PCDATA)>
+<!ATTLIST advisor
+        name CDATA #REQUIRED>
+<!-- Enrollment date element with date attribute. -->
+<!ELEMENT enrollment_date (#PCDATA)>
+<!ATTLIST enrollment_date
+        date CDATA #REQUIRED>
+<!-- Graduation date element with date attribute. -->
+<!ELEMENT graduation_date (#PCDATA)>
+<!ATTLIST graduation_date
+        date CDATA #REQUIRED>

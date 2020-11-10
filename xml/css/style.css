@@ -1,0 +1,83 @@
+student_database {
+    background-color: darkgray;
+    font-family: Cambria, Arial, serif;
+}
+
+student:before {
+    font-size: 26px;
+    font-weight: bold;
+    content: "Student ID: " attr(student_id) "\a";
+    white-space: pre;
+}
+
+contact:before {
+    font-size: 20px;
+    font-weight: bold;
+    content: "Contact\a";
+    white-space: pre;
+}
+
+name:after {
+    content: "First name: " attr(first_name) "\a"
+             "Middle name: " attr(middle_name) "\a"
+             "Last name: " attr(last_name) "\a"
+             "Preferred name: " attr(preferred_name) "\a\a";
+    white-space: pre;
+}
+
+email_address:before {
+    content: "Email address: ";
+    white-space: pre;
+}
+
+phone_number:before {
+    content: "Phone number: ";
+    white-space: pre;
+}
+
+email_address:after, phone_number:after {
+    content: "\a";
+    white-space: pre;
+}
+
+program:before {
+    font-size: 20px;
+    font-weight: bold;
+    content: "\aProgram\a";
+    white-space: pre;
+}
+
+status:before {
+    content: "Status: " attr(year) attr(type) "\a";
+    white-space: pre;
+}
+
+gpa:before {
+    content: "GPA: " attr(score) "/" attr(scale) "\a";
+    white-space: pre;
+}
+
+major:before {
+    content: "Major: " attr(program) ", " attr(type) "\a";
+    white-space: pre;
+}
+
+minor:before {
+    content: "Minor: " attr(program) "\a";
+    white-space: pre;
+}
+
+adivisor:before {
+    content: "Advisor: " attr(name) "\a";
+    white-space: pre;
+}
+
+enrollment_date:before {
+    content: "Enrollment date: " attr(date) "\a";
+    white-space: pre;
+}
+
+graduation_date:before {
+    content: "Graduation date: " attr(date) "\a\a\a";
+    white-space: pre;
+}
