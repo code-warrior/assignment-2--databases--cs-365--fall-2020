@@ -1,0 +1,25 @@
+<!--student_list requires there to be at least one student-->
+<!ELEMENT student_list (student+)>
+
+<!ELEMENT student (name, contact, school_stats)> <!--Each student is comprised of three categories of information-->
+<!ATTLIST student_id ID #REQUIRED> <!--Requires a student id for each student-->
+
+<!ELEMENT name (first_name, middle_name*, last_name, preferred_name*)> <!--Name requires first and last name, and its optional to for a student to include a preferred name as well as a middle name-->
+<!ELEMENT first_name (#PCDATA)> <!--first name is required-->
+<!ELEMENT middle_name (#PCDATA)> <!--middle name is optional-->
+<!ELEMENT last_name (#PCDATA)> <!--last name is required-->
+<!ELEMENT preferred_name (#PCDATA)> <!--preferred name is optional-->
+
+<!ELEMENT contact (email+, phone_number+)> <!--contact requires there to be a minimum of one email and phone number for each student-->
+<!ELEMENT email (#PCDATA)> <!--atleast one email is required-->
+<!ELEMENT phone_number (#PCDATA)> <!--atleast one phone number is required-->
+
+<!ELEMENT student_stats (year, gpa, major+, minor*, status, advisor+,initial_enrollment, graduation_date)> <!--school stats includes all information necessary for a student-->
+<!ELEMENT year (#PCDATA)> <!--current year in school is required-->
+<!ELEMENT gpa (#PCDATA)> <!--gpa is required-->
+<!ELEMENT major (#PCDATA)> <!--atleast one major is required-->
+<!ELEMENT minor (#PCDATA)> <!--minor is optional-->
+<!ELEMENT status (#PCDATA)> <!--student status is required-->
+<!ELEMENT advisor (#PCDATA)> <!--at least one advisor is required-->
+<!ELEMENT initial_enrollment (#PCDATA)> <!--initial enrollment date is required-->
+<!ELEMENT graduation_date (#PCDATA)> <!--graduation date is required-->
